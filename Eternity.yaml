@@ -5,206 +5,180 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 JP-149.22.87.241-0375, server: 149.22.87.241, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇯🇵 JP-149.22.87.204-0363, server: 149.22.87.204, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇸🇬 SG-68.183.227.45-0407, server: 68.183.227.45, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
-  - {name: 🇸🇬 SG-68.183.227.4-0395, server: 68.183.227.4, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
-  - {name: 🇯🇵 JP-149.22.87.240-0364, server: 149.22.87.240, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇸🇬 SG-68.183.227.236-0396, server: 68.183.227.236, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
-  - {name: 🇸🇬 SG-128.199.172.224-0413, server: 128.199.172.224, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
+  - {name: 🇯🇵 JP-149.22.87.241-0485, server: 149.22.87.241, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇯🇵 JP-149.22.87.204-0488, server: 149.22.87.204, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇯🇵 JP-149.22.87.240-0487, server: 149.22.87.240, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇰🇷 韩国特殊|@ripaojiedian, server: 13.230.68.39, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 SG-68.183.227.45-0506, server: 68.183.227.45, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
+  - {name: 🇸🇬 SG-68.183.227.236-0501, server: 68.183.227.236, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
+  - {name: 🇸🇬 SG-68.183.227.4-0504, server: 68.183.227.4, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
+  - {name: 🇯🇵 日本特殊|@ripaojiedian, server: 52.192.7.214, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 SG-128.199.172.224-0500, server: 128.199.172.224, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
+  - {name: 🇸🇬 狮城特殊|@ripaojiedian, server: 43.206.240.27, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇭🇰 香港4|@ripaojiedian, server: 104.251.227.182, port: 443, type: trojan, password: 43e5eeacbad3032bfe4c25a2f011b6b7, sni: hezijiasuqi.com, skip-cert-verify: true}
-  - {name: 🇸🇬 SG-139.59.119.143-0394, server: connectwithemployers.online, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, skip-cert-verify: false}
-  - {name: 🇸🇬 狮城特殊|@ripaojiedian, server: 52.77.230.72, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 SG-103.106.229.219-0487, server: 103.106.229.219, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇰🇷 韩国特殊|@ripaojiedian, server: 52.77.248.74, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 日本特殊|@ripaojiedian, server: 18.139.221.191, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 SG-64.176.85.73-0469, server: 64.176.85.73, port: 1866, type: ss, cipher: chacha20-ietf-poly1305, password: oXGp1+ihlfKg826H}
-  - {name: 🇨🇳 TW-2.58.241.42-5869, server: taiwan-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2}
-  - {name: 🇰🇷 KR-54.180.158.248-5787, server: 54.180.158.248, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 TW-185.189.160.98-0474, server: 185.189.160.98, port: 64759, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇰🇷 KR-13.125.226.50-5816, server: 13.125.226.50, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 KR-43.202.96.177-0372, server: south-korea-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2}
-  - {name: 🇸🇬 _SG_新加坡->🇺🇸_US_美国, server: 13.229.181.179, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 韩国2|@ripaojiedian, server: lm.kaiqsz.com, port: 39593, type: trojan, password: 415b770f-20de-4be4-a3c1-8376da50a1b7, sni: mmbiz10.redapricotcloud.com, skip-cert-verify: false}
-  - {name: 🇰🇷 韩国|@ripaojiedian, server: naiu-other.05vr9nyqg5.download, port: 13036, type: trojan, password: dc15d997-8b26-4294-870e-c90a5784dca4, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false}
-  - {name: 🇯🇵 日本4|@ripaojiedian, server: naiu-jp.05vr9nyqg5.download, port: 13011, type: trojan, password: dc15d997-8b26-4294-870e-c90a5784dca4, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false}
-  - {name: 🇯🇵 日本3|@ripaojiedian, server: 45.159.51.161, port: 39131, type: vmess, uuid: 2abcabf6-d7bf-48eb-aed2-07f090b7008a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾|@ripaojiedian, server: wb.kaiqsz.com, port: 18147, type: trojan, password: 415b770f-20de-4be4-a3c1-8376da50a1b7, sni: mm2.redapricotcloud.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港3|@ripaojiedian, server: fiwejniavzoj.xn--fiqs8sjz2bull.com, port: 31488, type: vmess, uuid: 234dcf63-5809-44fd-9c53-86f51f2e76a7, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港2|@ripaojiedian, server: 38.147.189.12, port: 12875, type: vmess, uuid: 1a3f584c-0960-48ef-a161-942c91e8ab64, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港|@ripaojiedian, server: 38.147.188.94, port: 18423, type: vmess, uuid: d74f7655-eb59-4b48-9f8f-98a9c64a9e10, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 SG-139.59.119.143-0499, server: connectwithemployers.online, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, skip-cert-verify: false}
+  - {name: 🇸🇬 SG-64.176.85.73-6297, server: 64.176.85.73, port: 1866, type: ss, cipher: chacha20-ietf-poly1305, password: oXGp1+ihlfKg826H}
+  - {name: 🇰🇷 KR-13.125.226.50-5946, server: 13.125.226.50, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇨🇳 台湾2|@ripaojiedian, server: 154.223.20.79, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇸🇬 SG-103.106.229.219-0502, server: 103.106.229.219, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇭🇰 香港3|@ripaojiedian, server: cn05.closeai.one, port: 8123, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: ywtwepcnwlou.xn--fiqs8sjz2bull.com, port: 33184, type: vmess, uuid: e1541125-9df4-4ee7-bb05-e68f85d7937f, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾|@ripaojiedian, server: cn00.closeai.one, port: 8801, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com}
+  - {name: 🇯🇵 日本2|@ripaojiedian, server: tttxbmsm.fask511.cfd, port: 25775, type: vmess, uuid: 0663228f-646a-4c7c-b14a-bde613c0c237, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=1024", headers: {Host: www.douyin.com}}}
+  - {name: 🇭🇰 香港2|@ripaojiedian, server: 41699d8ad5e758d2c6e42c1e7f40e820.v1.cac.node-is.green, port: 49782, type: trojan, password: 299beacf-37f0-41c6-a122-9260c75731bf, sni: hk12.bilibili.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港|@ripaojiedian, server: 8.138.35.67, port: 58237, type: trojan, password: a4eb528a0de18c7d7083aeec1a9abcb6, sni: apps.mzstatic.com, skip-cert-verify: true}
   - {name: 🇨🇳 _TW_台湾->🇺🇸_US_美国, server: 107.167.182.230, port: 80, type: vmess, uuid: efcb7d7c-c582-46f5-eeff-0e553342528d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /tg@hkaa0, headers: {Host: br.gy.youxuan-1.66688888.xyz}}}
-  - {name: 🇯🇵 JP-107.148.6.121-5891, server: 107.148.6.121, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
-  - {name: 🇺🇸 US-194.5.215.59-0353, server: 194.5.215.59, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
-  - {name: 🇺🇸 US-156.146.38.167-0342, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇺🇸 US-156.146.38.170-0339, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇺🇸 US-212.102.47.130-0325, server: 212.102.47.130, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇺🇸 US-92.118.112.111-0429, server: 92.118.112.111, port: 18622, type: ss, cipher: chacha20-ietf-poly1305, password: gmYDzSG6K35s8b19oY4fGz}
-  - {name: 🇺🇸 US-107.155.57.51-0337, server: 107.155.57.51, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
-  - {name: 🇺🇸 US-54.200.164.45-5778, server: 54.200.164.45, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 _US_美国_5, server: 34.221.171.18, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇦 CA-79.127.233.170-0332, server: 79.127.233.170, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇺🇸 _GB_英国->🇺🇸_US_美国, server: uk-dc1.yangon.club, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇺🇸 US-45.55.2.232-0354, server: 45.55.2.232, port: 14293, type: ss, cipher: aes-256-cfb, password: 2170f8}
-  - {name: 🇺🇸 _US_美国_7, server: 52.38.165.76, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 US-172.233.128.126-1269, server: 172.233.128.126, port: 1866, type: ss, cipher: chacha20-ietf-poly1305, password: oXGp1+ihlfKg826H}
-  - {name: 🇺🇸 US-104.207.155.64-0327, server: 104.207.155.64, port: 1633, type: ss, cipher: chacha20-ietf-poly1305, password: o_A7inN1yqeWtOTL}
-  - {name: 🇺🇸 US-172.232.171.192-0334, server: 172.232.171.192, port: 1866, type: ss, cipher: chacha20-ietf-poly1305, password: oXGp1+ihlfKg826H}
-  - {name: 🇺🇸 US-207.246.101.50-0324, server: 207.246.101.50, port: 1633, type: ss, cipher: chacha20-ietf-poly1305, password: o_A7inN1yqeWtOTL}
-  - {name: 🇺🇸 US-139.64.165.101-0434, server: 139.64.165.101, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇺🇸 美国 CloudFlare节点 10, server: fred.ns.cloudflare.com, port: 80, type: vmess, uuid: d3d7daea-b61a-40a1-833e-318952cd0ab1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmessjp.trevely.us.kg, headers: {Host: vmessjp.trevely.us.kg}}}
-  - {name: 🇺🇸 US-194.116.173.21-0439, server: 194.116.173.21, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ}
-  - {name: 🇺🇸 US-38.107.226.146-0471, server: 38.107.226.146, port: 1230, type: ss, cipher: chacha20-ietf-poly1305, password: H5S0hvcxRi#YLmgU}
-  - {name: 🇨🇦 CA-142.4.216.225-0467, server: ca225.vpnbook.com, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: JIhN6rBKkaEboLNXVSv5rq}
-  - {name: 🇺🇸 US-142.202.49.84-0516, server: 142.202.49.84, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇺🇸 US-142.202.49.122-5632, server: 142.202.49.122, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇺🇸 US-38.107.226.241-7706, server: 38.107.226.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 US-167.88.63.21-6093, server: 167.88.63.21, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇺🇸 US-204.136.10.115-0520, server: 204.136.10.115, port: 1866, type: ss, cipher: chacha20-ietf-poly1305, password: oXGp1+ihlfKg826H}
-  - {name: 🇺🇸 _US_美国_2, server: 54.212.56.86, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 _US_美国_6, server: 185.47.252.251, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇺🇸 _US_美国->🇬🇧_GB_英国, server: mrb2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mrb2.shabijichang.com}}}
-  - {name: 🇺🇸 _US_美国->🇬🇧_GB_英国 2, server: ld2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ld2.shabijichang.com}}}
+  - {name: 🇸🇬 SG-13.250.12.185-0516, server: 13.250.12.185, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 SG-47.129.101.151-0521, server: 47.129.101.151, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 KR-43.202.96.177-0494ss//cmM0LW1kNToxNGZGUHJiZXpFM0hEWnpzTU9yNg@138.199.42.688080#🇺🇸 US-138.199.42.68-0329, server: south-korea-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2}
+  - {name: 🇺🇸 US-79.110.53.169-0456, server: 79.110.53.169, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
+  - {name: 🇺🇸 US-212.102.47.130-0413, server: 212.102.47.130, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇨🇦 CA-149.22.95.183-0376, server: 149.22.95.183, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇺🇸 US-45.55.2.232-0416, server: 45.55.2.232, port: 14293, type: ss, cipher: aes-256-cfb, password: 2170f8}
+  - {name: 🇺🇸 US-104.207.155.64-0463, server: 104.207.155.64, port: 1633, type: ss, cipher: chacha20-ietf-poly1305, password: o_A7inN1yqeWtOTL}
+  - {name: 🇺🇸 US-38.107.226.146-0458, server: 38.107.226.146, port: 1230, type: ss, cipher: chacha20-ietf-poly1305, password: H5S0hvcxRi#YLmgU}
+  - {name: 🇺🇸 US-172.233.128.126-0477, server: 172.233.128.126, port: 1866, type: ss, cipher: chacha20-ietf-poly1305, password: oXGp1+ihlfKg826H}
+  - {name: 🇺🇸 US-207.246.101.50-0461, server: 207.246.101.50, port: 1633, type: ss, cipher: chacha20-ietf-poly1305, password: o_A7inN1yqeWtOTL}
+  - {name: 🇺🇸 US-172.232.171.192-0464, server: 172.232.171.192, port: 1866, type: ss, cipher: chacha20-ietf-poly1305, password: oXGp1+ihlfKg826H}
+  - {name: 🇺🇸 US-139.64.165.101-0519, server: 139.64.165.101, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 US-94.131.123.147-0472, server: 94.131.123.147, port: 7383, type: ss, cipher: chacha20-ietf-poly1305, password: eSHEdJz96rqNkOCAzd5Csv}
+  - {name: 🇨🇦 CA-142.4.216.225-0489, server: 142.4.216.225, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: JIhN6rBKkaEboLNXVSv5rq}
+  - {name: 🇺🇸 _US_美国_2, server: 38.110.1.202, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇺🇸 _US_美国_1, server: 38.86.135.223, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇺🇸 美国3|@ripaojiedian, server: 23.157.40.115, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 美国 131, server: join.ISVvpn.fastly80-3.hosting-ip.com, port: 80, type: vmess, uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /racevpn, headers: {Host: telegram-isvvpn.ir}}}
+  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国_2, server: ru.fastsoonlink.com, port: 40031, type: ss, cipher: chacha20-ietf-poly1305, password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00}
+  - {name: 🇺🇸 _US_美国_5, server: 38.68.135.239, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国_1, server: us.fastsoonlink.com, port: 40001, type: ss, cipher: chacha20-ietf-poly1305, password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00}
+  - {name: 🇺🇸 _US_美国_4 4, server: 185.47.253.171, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: naiu-us.05vr9nyqg5.download, port: 13019, type: trojan, password: dc15d997-8b26-4294-870e-c90a5784dca4, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国->🇮🇳_IN_印度 4, server: mm3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mm3.shabijichang.com}}}
   - {name: 🇺🇸 _US_美国 5, server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sbl2.shabijichang.com}}}
+  - {name: 🇺🇸 _US_美国->🇬🇧_GB_英国 2, server: ld2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ld2.shabijichang.com}}}
+  - {name: 🇺🇸 _US_美国->🇬🇧_GB_英国, server: mrb2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mrb2.shabijichang.com}}}
   - {name: 🇨🇳 _TW_台湾->🇺🇸_US_美国 2, server: 107.167.182.230, port: 80, type: vmess, uuid: efcb7d7c-c582-46f5-eeff-0e553342528d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /tg@hkaa0, headers: {Host: br.gy.youxuan-1.66688888.xyz}}}
   - {name: 🇺🇸 _US_美国 4, server: wnd3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: wnd3.shabijichang.com}}}
   - {name: 🇺🇸 _US_美国 3, server: 45.199.138.186, port: 30000, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1696682720138, headers: {Host: www.19229362.xyz}}}
   - {name: 🇺🇸 _US_美国 2, server: wnd2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: wnd2.shabijichang.com}}}
-  - {name: 🇺🇸 _US_美国->🇮🇳_IN_印度 3, server: mm2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mm2.shabijichang.com}}}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: cn15.closeai.one, port: 8505, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com}
   - {name: 🇺🇸 _US_美国->🇸🇦_SA_沙特阿拉伯, server: jd3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jd3.shabijichang.com}}}
-  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国, server: flkf2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: flkf2.shabijichang.com}}}
+  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国 2, server: flkf2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: flkf2.shabijichang.com}}}
   - {name: 🇺🇸 _US_美国->🇮🇳_IN_印度 2, server: 104.26.8.44, port: 80, type: vmess, uuid: 5180444a-4756-43b4-960b-49eb9052e4e8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: a.109420.xyz}}}
   - {name: 🇺🇸 _US_美国->🇮🇳_IN_印度, server: 104.17.18.26, port: 80, type: vmess, uuid: 5180444a-4756-43b4-960b-49eb9052e4e8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: a.109420.xyz}}}
-  - {name: 🇺🇸 _US_美国->🇮🇳_IN_印度 4, server: mm3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mm3.shabijichang.com}}}
+  - {name: 🇺🇸 _US_美国, server: 206.168.190.219, port: 2082, type: vmess, uuid: e31ca750-71f7-11ee-b920-1239d0255272, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmws}}
   - {name: 🇺🇸 _US_美国->🇳🇱_NL_荷兰, server: 45.199.138.191, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1696251522438, headers: {Host: www.42077230.xyz}}}
   - {name: 🇨🇦 _CA_加拿大, server: 108.181.10.17, port: 80, type: vmess, uuid: 474e8680-701f-11ee-b436-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: teams.microsoft.com}}}
-  - {name: 🇺🇸 US-38.143.66.87-5694, server: 38.143.66.87, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 US-139.64.165.230-5765, server: 139.64.165.230, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 US-38.121.43.27-6141, server: 38.121.43.27, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 US-142.202.49.75-6146, server: 142.202.49.75, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 US-23.157.40.87-5699, server: 23.157.40.87, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇺🇸 US-54.190.43.178-0685, server: 54.190.43.178, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 US-38.54.94.122-5644, server: 38.54.94.122, port: 2053, type: vmess, uuid: 2ca8b9c3-a2c7-4f3e-b3f4-acd85525ace1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 _US_美国, server: 206.168.190.219, port: 2082, type: vmess, uuid: e31ca750-71f7-11ee-b920-1239d0255272, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmws}}
-  - {name: 🇺🇸 US-199.180.101.27-5908, server: 199.180.101.27, port: 38004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国2|@ripaojiedian, server: 38.147.161.47, port: 44447, type: vmess, uuid: 6f5637c1-2a46-4d3b-8257-7dc3a70ff1dd, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇦 CA-23.162.200.227-0819, server: 23.162.200.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 23.162.200.227}}}
-  - {name: 🇺🇸 US-38.33.44.11-5913, server: 38.33.44.11, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 US-198.200.48.229-5925, server: 198.200.48.229, port: 37006, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 US-38.14.107.233-8121, server: 38.14.107.233, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: www.23179753.xyz}}}
-  - {name: 🇺🇸 US-38.14.107.225-8119, server: 38.14.107.225, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: www.23179753.xyz}}}
-  - {name: 🇺🇸 US-38.33.34.38-5928, server: 38.33.34.38, port: 36002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 _US_美国_4, server: 185.47.253.171, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇺🇸 US-38.11.50.66-5663, server: 38.11.50.66, port: 31005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 US-137.175.21.181-5655, server: 137.175.21.181, port: 38001, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 US-137.175.41.105-5926, server: 137.175.41.105, port: 38005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 US-154.3.8.151-1263, server: 154.3.8.151, port: 30067, type: ss, cipher: aes-256-gcm, password: iUB0923RBA}
-  - {name: 🇺🇸 US-38.14.107.228-8144, server: 38.14.107.228, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: www.23179753.xyz}}}
-  - {name: 🇺🇸 US-137.175.21.180-5914, server: 137.175.21.180, port: 38001, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 US-38.14.107.226-5659, server: 38.14.107.226, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇸🇬 _SG_新加坡->🇺🇸_US_美国 2, server: 13.229.181.179, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇦 CA-134.195.198.147-8157, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: inna.cfd}}}
-  - {name: 🇺🇸 US-44.194.46.61-6069, server: 44.194.46.61, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
-  - {name: 🇺🇸 US-142.202.48.105-5698, server: 142.202.48.105, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国, server: us.fastsoonlink.com, port: 40001, type: ss, cipher: chacha20-ietf-poly1305, password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00}
-  - {name: 🇺🇸 _US_美国->🇫🇷_FR_法国_2, server: 151.101.194.133, port: 80, type: vmess, uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: telegram-isvvpn.ir}}}
-  - {name: 🇺🇸 _NL_荷兰->🇺🇸_US_美国, server: 193.29.139.189, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u}
-  - {name: 🇺🇸 _US_美国_1, server: s1.db-link01.top, port: 2095, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 100-105-92-158.s1.db-link01.top}}}
+  - {name: 🇺🇸 US-38.54.94.122-5774, server: 38.54.94.122, port: 2053, type: vmess, uuid: 2ca8b9c3-a2c7-4f3e-b3f4-acd85525ace1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 US-38.14.107.233-8259, server: 38.14.107.233, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: www.23179753.xyz}}}
+  - {name: 🇺🇸 US-38.14.107.228-8246, server: 38.14.107.228, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: www.23179753.xyz}}}
+  - {name: 🇺🇸 US-38.14.107.225-8281, server: 38.14.107.225, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: www.23179753.xyz}}}
+  - {name: 🇺🇸 US-137.175.41.105-6056, server: 137.175.41.105, port: 38005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 US-38.33.34.38-6058, server: 38.33.34.38, port: 36002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 US-38.33.44.11-6043, server: 38.33.44.11, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 US-38.11.50.66-5793, server: 38.11.50.66, port: 31005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 US-199.180.101.27-6038, server: 199.180.101.27, port: 38004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 US-137.175.21.180-6044, server: 137.175.21.180, port: 38001, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 US-137.175.21.181-5785, server: 137.175.21.181, port: 38001, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 US-198.200.48.229-6055, server: 198.200.48.229, port: 37006, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 US-38.14.107.226-5789, server: 38.14.107.226, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇨🇦 CA-23.162.200.227-0818, server: 23.162.200.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 23.162.200.227}}}
+  - {name: 🇨🇦 CA-134.195.198.147-8251, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: inna.cfd}}}
+  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国 3, server: plex.com, port: 80, type: vmess, uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: telegram-isvvpn.ir}}}
+  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国, server: plex.com, port: 80, type: vmess, uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: telegram-isvvpn.ir}}}
+  - {name: 🇺🇸 _US_美国->🇫🇷_FR_法国, server: 151.101.0.155, port: 80, type: vmess, uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: telegram-isvvpn.ir}}}
+  - {name: 🇺🇸 _NL_荷兰->🇺🇸_US_美国, server: 45.158.171.110, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: 🇺🇸 美国 028, server: jpp.556855.xyz, port: 2080, type: vmess, uuid: 63769deb-4153-4b98-aba3-31bc07e53a2d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: jpp.556855.xyz}}}
+  - {name: 🇺🇸 美国【付费推荐：https//socks.news】8, server: 38.147.189.12, port: 12875, type: vmess, uuid: 1a3f584c-0960-48ef-a161-942c91e8ab64, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国_1, server: join.ISVvpn.fastly80-3.hosting-ip.com, port: 80, type: vmess, uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: telegram-isvvpn.ir}}}
-  - {name: 🇺🇸 _US_美国->🇫🇷_FR_法国_1, server: 151.101.130.133, port: 80, type: vmess, uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: telegram-isvvpn.ir}}}
-  - {name: 🇺🇸 美国 031, server: gov.uk, port: 443, type: vmess, uuid: 77848824-93b7-4b89-ffd0-e91afff406ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /77848824, headers: {Host: zheshiscp.com}}}
-  - {name: 🇺🇸 美国 074, server: singapore.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}}
-  - {name: 🇺🇸 美国 088, server: shs.xiaoqi666.xyz, port: 2086, type: vmess, uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: shs.xiaoqi666.xyz}}}
-  - {name: 🇺🇸 美国 113, server: ovhwuxian.pai50288.uk, port: 8443, type: vmess, uuid: 86455bfc-dd02-4a3b-9f03-7668f39375d6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: ovhwuxian.pai50288.uk}}}
-  - {name: 🇫🇷 FR-45.158.171.141-0382, server: 45.158.171.141, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa}
-  - {name: 🇳🇱 NL-193.29.139.162-0384, server: 193.29.139.162, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa}
-  - {name: 4Nika-1274, server: 178.209.50.206, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇬🇧 GB-212.102.53.80-0415, server: 212.102.53.80, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: CH-156.146.62.162-0446, server: 156.146.62.162, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 4Nika-122, server: 45.87.175.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg}
-  - {name: 4Nika-8655, server: 142.4.104.33, port: 52143, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇬🇧 GB-212.102.53.78-0410, server: 212.102.53.78, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: CH-156.146.62.163-0421, server: 156.146.62.163, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: CZ-195.181.160.6-0466, server: 195.181.160.6, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3}
-  - {name: 4Nika-597, server: 91.219.237.102, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3}
-  - {name: CH-156.146.62.164-0417, server: 156.146.62.164, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇬🇧 GB-212.102.53.195-0416, server: 212.102.53.195, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇬🇧 GB-212.102.53.196-0400, server: 212.102.53.196, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇬🇧 GB-212.102.53.81-0414, server: 212.102.53.81, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇬🇧 GB-212.102.53.198-0408, server: 212.102.53.198, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: SE-121.127.46.147-0392, server: 121.127.46.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 4Nika-8213, server: 107.148.207.249, port: 48712, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇬🇧 GB-212.102.53.193-0405, server: 212.102.53.193, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇫🇷 FR-45.158.171.151-0450, server: 45.158.171.151, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg}
-  - {name: CL-37.143.128.195-6025, server: 37.143.128.195, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇵🇱 PL-92.118.205.228-0422, server: 92.118.205.228, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3}
-  - {name: 4Nika-9416, server: 172.99.190.207, port: 55577, type: vmess, uuid: e922d485-98a7-475a-9a47-cde3722ac82e, alterId: 0, cipher: auto, tls: false}
-  - {name: 4Nika-463, server: 193.29.139.217, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj}
-  - {name: 4Nika-579, server: 169.150.202.174, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3}
+  - {name: 4Nika-678, server: 137.175.113.192, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
+  - {name: LT-45.87.175.157-0379, server: 45.87.175.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa}
+  - {name: LT-45.87.175.188-0362, server: 45.87.175.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u}
+  - {name: 🇳🇱 NL-193.29.139.164-0377, server: 193.29.139.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa}
+  - {name: 🇳🇱 NL-193.29.139.179-0355, server: 193.29.139.179, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u}
+  - {name: 4Nika-11, server: 45.87.175.154, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa}
+  - {name: LT-45.87.175.178-0265, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa}
+  - {name: 🇳🇱 NL-193.29.139.227-0372, server: 193.29.139.227, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u}
+  - {name: 4Nika-115, server: 45.158.171.136, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg}
+  - {name: 4Nika-1264, server: 147.78.1.230, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇬🇧 GB-20.77.162.77-0382, server: series-a2.varzesh360.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg}
+  - {name: 4Nika-161, server: 172.187.109.223, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c}
+  - {name: 🇳🇱 NL-149.34.244.68-0402, server: 149.34.244.68, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇳🇱 NL-149.34.244.72-0473, server: 149.34.244.72, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇳🇱 NL-149.34.244.82-0403, server: 149.34.244.82, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 4Nika-1283, server: 185.180.12.81, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: HU-91.219.237.102-0470, server: 91.219.237.102, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3}
+  - {name: 4Nika-8741, server: 142.4.104.33, port: 52143, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇳🇱 NL-193.29.139.157-0432, server: 193.29.139.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u}
+  - {name: 4Nika-490, server: 35.176.197.229, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA}
+  - {name: CH-156.146.62.162-0434, server: 156.146.62.162, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇬🇧 GB-212.102.53.197-0408, server: uk-dc1.yangon.club, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: CH-156.146.62.161-0439, server: 156.146.62.161, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇬🇧 GB-212.102.53.80-0448, server: 212.102.53.80, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 4Nika-8298, server: 107.148.207.249, port: 48712, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇬🇧 GB-169.150.210.233-0415, server: 169.150.210.233, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
+  - {name: 🇳🇱 NL-5.35.47.122-0417, server: 5.35.47.122, port: 45635, type: ss, cipher: chacha20-ietf-poly1305, password: CLphyEMQT8nbG8EImX0A2D}
+  - {name: 🇬🇧 GB-212.102.53.193-0428, server: 212.102.53.193, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 4Nika-1096, server: 52.38.165.76, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇬🇧 GB-212.102.53.79-0436, server: 212.102.53.79, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 4Nika-8883, server: 159.69.120.98, port: 41391, type: vmess, uuid: b5c3e2e8-dfb6-4a0a-b656-87e997610785, alterId: 0, cipher: auto, tls: false}
+  - {name: 4Nika-807, server: 212.102.53.78, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇬🇧 GB-212.102.53.196-0404, server: 212.102.53.196, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇫🇷 FR-45.158.171.146-0396, server: 45.158.171.146, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj}
+  - {name: 🇬🇧 GB-212.102.53.81-0429, server: 212.102.53.81, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: CH-156.146.62.164-0437, server: 156.146.62.164, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 4Nika-1367, server: 195.238.126.84, port: 9039, type: ss, cipher: aes-256-cfb, password: qYEN5HX4JKeVCdEC}
+  - {name: 🇬🇧 GB-212.102.53.198-0443, server: 212.102.53.198, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
   - {name: 🇬🇧 GB-212.102.53.194-0140, server: 212.102.53.194, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 4Nika-485, server: 213.109.147.242, port: 62685, type: ss, cipher: chacha20-ietf-poly1305, password: VpKABcOpNNA0l5G2AVOmw8}
-  - {name: SE-46.246.98.155-0426, server: 46.246.98.155, port: 44013, type: ss, cipher: chacha20-ietf-poly1305, password: UDcjYQ6Z6AIWxViZpqyOmO}
-  - {name: 4Nika-111, server: 193.29.139.143, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg}
-  - {name: RS-194.71.126.31-0448, server: 194.71.126.31, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: SK-156.146.40.194-0409, server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 4Nika-571, server: 103.106.228.132, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇳🇱 NL-193.29.139.138-0501, server: 193.29.139.138, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj}
-  - {name: 4Nika-9782, server: 193.29.107.234, port: 49020, type: vmess, uuid: 2e967dd5-8d24-4099-a901-412dcb4024fd, alterId: 64, cipher: auto, tls: false}
-  - {name: 4Nika-10940, server: join.ISVvpn.fastly80-3.hosting-ip.com, port: 80, type: vmess, uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /racevpn, headers: {Host: telegram-isvvpn.ir}}}
-  - {name: 4Nika-593, server: 45.156.248.11, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3}
-  - {name: 4Nika-9965, server: 23.166.88.183, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
-  - {name: 4Nika-1122, server: 57.180.246.231, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 4Nika-17, server: 5.forlive.live, port: 60033, type: ss, cipher: chacha20-ietf-poly1305, password: 518524e9-2404-363e-a13b-83504678b273}
-  - {name: 4Nika-10190, server: 4.240.73.55, port: 14118, type: vmess, uuid: d513bfb2-b7c2-4dc6-a3f9-55145f198705, alterId: 0, cipher: auto, tls: false}
-  - {name: 4Nika-1023, server: 18.183.142.200, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 4Nika-10862, server: fred.ns.cloudflare.com, port: 80, type: vmess, uuid: d3d7daea-b61a-40a1-833e-318952cd0ab1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmessjp.trevely.us.kg, headers: {Host: vmessjp.trevely.us.kg}}}
-  - {name: 4Nika-9805, server: 20.188.117.201, port: 32995, type: vmess, uuid: 27cf0b94-a09a-4c7d-9818-9696076d7b52, alterId: 0, cipher: auto, tls: false}
-  - {name: 4Nika-491, server: 141.98.234.93, port: 20012, type: ss, cipher: chacha20-ietf-poly1305, password: WfmxKX2FBJRU0Ie9VLIYDL}
-  - {name: 4Nika-10051, server: 38.109.228.113, port: 21809, type: vmess, uuid: a6179475-489c-4bcc-b05c-481386295b93, alterId: 0, cipher: auto, tls: false}
-  - {name: 4Nika-760, server: 2.58.87.221, port: 16899, type: ss, cipher: aes-128-gcm, password: Yc2CtrIz8L}
-  - {name: 4Nika-8838, server: 152.69.197.60, port: 1069, type: vmess, uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf, alterId: 0, cipher: auto, tls: false}
-  - {name: 4Nika-5193, server: 52.50.145.255, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
-  - {name: 4Nika-1334, server: 62.100.205.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: KZ-213.156.137.67-1107, server: 213.156.137.67, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 4Nika-184, server: 77.83.246.74, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: B9v0sb0eqOhnYFddkND8vt}
-  - {name: 🇸🇬 狮城特殊|@ripaojiedian 2, server: 52.77.230.72, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 4Nika-9807, server: 20.205.176.167, port: 54550, type: vmess, uuid: e696df27-62cc-4ca7-9a39-007c93cdaa46, alterId: 0, cipher: auto, tls: false}
-  - {name: 4Nika-1007, server: 13.250.12.185, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇬🇧 GB-141.98.101.180-0462, server: 141.98.101.180, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 4Nika-10585, server: 94.136.184.156, port: 38872, type: vmess, uuid: 220732cc-9e43-4453-83f1-c9435be25b5b, alterId: 0, cipher: auto, tls: false}
-  - {name: RELAY-198.41.209.70-0452, server: 198.41.209.70, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: chunchuan.kejixiaoqi666.store}}}
-  - {name: RELAY-104.19.48.236-0250, server: 104.19.48.236, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: chunchuan.kejixiaoqi666.store}}}
-  - {name: RELAY-104.17.213.241-0443, server: 104.17.213.241, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: chunchuan.kejixiaoqi666.store}}}
-  - {name: 4Nika-8549, server: 140.83.63.38, port: 24445, type: vmess, uuid: 94c5ef37-4d82-49f9-c624-f01259374a17, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇬🇧 GB-141.98.101.178-0484, server: 141.98.101.178, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 4Nika-1371, server: 218.38.103.150, port: 28902, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 4Nika-3170, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
-  - {name: 4Nika-1369, server: 211.178.105.134, port: 51633, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇮🇳 IN-159.65.149.72-0457, server: 159.65.149.72, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: p7EhC8MR7o7GuRn27YF8SQNAKJ2lUbBNIjcyqSmBHsy8wLbJ}
-  - {name: 4Nika-1036, server: 3.34.123.239, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 4Nika-1106, server: 54.180.248.97, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇬🇧 GB-141.98.101.182-0502, server: 141.98.101.182, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 4Nika-158, server: 3.28.107.6, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c}
-  - {name: 4Nika-10994, server: mods-destruction-academy-gear.trycloudflare.com, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: mods-destruction-academy-gear.trycloudflare.com}}}
-  - {name: 4Nika-1031, server: 3.0.17.42, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 4Nika-13, server: 45.87.175.192, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa}
-  - {name: 4Nika-1250, server: 103.163.218.2, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: AE-40.172.178.194-0479, server: 40.172.178.194, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c}
-  - {name: 🇬🇧 GB-141.98.101.179-0461, server: 141.98.101.179, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 4Nika-10751, server: bvdhgfhfs.fask511.cfd, port: 25774, type: vmess, uuid: 0663228f-646a-4c7c-b14a-bde613c0c237, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=1024", headers: {Host: www.douyin.com}}}
-  - {name: 4Nika-3759, server: vn.mjt000.com, port: 443, type: trojan, password: 6557bf4a-852b-4a69-ad35-d53293386a13, sni: vn.mjt000.com, skip-cert-verify: false}
-  - {name: 4Nika-5171, server: 35.178.97.244, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
-  - {name: 4Nika-5175, server: 35.180.3.242, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
-  - {name: 🇫🇷 FR-5.196.29.123-6186, server: 5.196.29.123, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 4Nika-5124, server: 13.61.83.178, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
-  - {name: 4Nika-10442, server: 62.146.233.115, port: 38324, type: vmess, uuid: f863ef99-5ef0-4321-aaac-a476a5e8c3fb, alterId: 0, cipher: auto, tls: false}
-  - {name: 4Nika-548, server: 45.144.48.63, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: d3837224ed465f00}
-  - {name: 4Nika-5109, server: 13.36.4.4, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
-  - {name: 🇩🇰 DK-192.36.27.94-0500, server: 192.36.27.94, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: BH-15.184.159.161-0499, server: admin.c3.webramz.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ}
-  - {name: 4Nika-9801, server: 206.206.80.66, port: 23423, type: vmess, uuid: 8825fd04-9005-4410-b48c-d2f345ec7fee, alterId: 0, cipher: auto, tls: false}
-  - {name: SE-176.124.202.137-0496, server: 176.124.202.137, port: 81, type: ss, cipher: chacha20-ietf-poly1305, password: a0605527-28e4-449c-80ee-5642cc16a8af}
-  - {name: 4Nika-169, server: 103.174.86.113, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: vZr8MlUXUihNEndqIpjDxQdSeqi37FbgoHBmQ1syy6ZjkbBn}
+  - {name: 🇳🇱 NL-149.34.244.77-0389, server: 149.34.244.77, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇬🇧 GB-212.102.53.195-0445, server: 212.102.53.195, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: SE-121.127.46.147-0422, server: 121.127.46.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇵🇱 PL-92.118.205.228-0440, server: 92.118.205.228, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3}
+  - {name: CZ-195.181.160.6-0423, server: 195.181.160.6, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3}
+  - {name: CL-37.143.128.195-0435, server: 37.143.128.195, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇫🇷 FR-185.234.64.35-0410, server: 185.234.64.35, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: YTNjNDY5}
+  - {name: 4Nika-10056, server: 23.166.88.183, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
+  - {name: 4Nika-184, server: 194.87.45.189, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: A9VrVj5gdE0yvNZ5Cg8EEj}
+  - {name: 4Nika-10059, server: 23.162.200.91, port: 20182, type: vmess, uuid: cc9b66b7-1de7-4aa9-9642-575a8ae3ff19, alterId: 0, cipher: auto, tls: false}
+  - {name: RS-194.71.126.31-0450, server: 194.71.126.31, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: SE-46.246.98.155-0446, server: 46.246.98.155, port: 44013, type: ss, cipher: chacha20-ietf-poly1305, password: UDcjYQ6Z6AIWxViZpqyOmO}
+  - {name: 4Nika-1058, server: 35.95.26.187, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇬🇧 GB-141.98.101.178-0474, server: 141.98.101.178, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 4Nika-5179, server: 13.61.83.178, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: 4Nika-597, server: 45.156.248.11, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3}
+  - {name: 4Nika-583, server: 169.150.202.174, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3}
+  - {name: 4Nika-778, server: 141.98.101.180, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇬🇧 GB-141.98.101.182-0522, server: 141.98.101.182, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 4Nika-186, server: 77.83.246.74, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: B9v0sb0eqOhnYFddkND8vt}
+  - {name: CH-156.146.62.163-0421, server: 156.146.62.163, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇷🇺 RU-45.151.62.54-0469, server: 45.151.62.54, port: 28825, type: ss, cipher: chacha20-ietf-poly1305, password: 0zyDRZ1XmNXaaCAN7KEA8a}
+  - {name: 4Nika-575, server: 103.106.228.132, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3}
+  - {name: 4Nika-10143, server: 38.109.228.113, port: 21809, type: vmess, uuid: a6179475-489c-4bcc-b05c-481386295b93, alterId: 0, cipher: auto, tls: false}
+  - {name: 4Nika-9502, server: 172.99.190.207, port: 55577, type: vmess, uuid: e922d485-98a7-475a-9a47-cde3722ac82e, alterId: 0, cipher: auto, tls: false}
+  - {name: SK-156.146.40.194-0465, server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇵🇱 PL-45.144.48.63-0471, server: war.ssvpnapp.win, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: d3837224ed465f00}
+  - {name: 4Nika-1235, server: 194.116.173.21, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ}
+  - {name: 4Nika-10367, server: 46.29.166.237, port: 47555, type: vmess, uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860, alterId: 0, cipher: auto, tls: false}
+  - {name: 4Nika-9869, server: 193.29.107.234, port: 49020, type: vmess, uuid: 2e967dd5-8d24-4099-a901-412dcb4024fd, alterId: 64, cipher: auto, tls: false}
+  - {name: EE-147.45.60.33-0455, server: 147.45.60.33, port: 16356, type: ss, cipher: chacha20-ietf-poly1305, password: LqlPI19oqnunGNSLMvdXyB}
+  - {name: 4Nika-637, server: 64.176.184.129, port: 1866, type: ss, cipher: chacha20-ietf-poly1305, password: oXGp1+ihlfKg826H}
+  - {name: 4Nika-325%% 8, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 4Nika-10279, server: 4.240.73.55, port: 14118, type: vmess, uuid: d513bfb2-b7c2-4dc6-a3f9-55145f198705, alterId: 0, cipher: auto, tls: false}
+  - {name: 4Nika-9898, server: 20.205.176.167, port: 54550, type: vmess, uuid: e696df27-62cc-4ca7-9a39-007c93cdaa46, alterId: 0, cipher: auto, tls: false}
+  - {name: 4Nika-625, server: 178.208.78.170, port: 23822, type: ss, cipher: chacha20-ietf-poly1305, password: nCTSQiE8rsRbFakUpt8kcl}
+  - {name: 4Nika-9899, server: 20.213.20.185, port: 17718, type: vmess, uuid: c206e022-34c6-4fe3-a232-b9c07ba3165d, alterId: 0, cipher: auto, tls: false}
+  - {name: 4Nika-465, server: 193.29.139.217, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj}
+  - {name: 4Nika-9895, server: 20.188.117.201, port: 32995, type: vmess, uuid: 27cf0b94-a09a-4c7d-9818-9696076d7b52, alterId: 0, cipher: auto, tls: false}
+  - {name: 4Nika-188, server: 15.184.240.122, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ}
+  - {name: BH-157.175.10.239-0505, server: admin.c3.webramz.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ}
+  - {name: MD-103.106.1.92-0374, server: 103.106.1.92, port: 23492, type: ss, cipher: chacha20-ietf-poly1305, password: yMX9WGPgUEcRZmlaa0YHHC}
+  - {name: AE-40.172.178.194-0514, server: 40.172.178.194, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c}
+  - {name: TH-119.59.98.58-6282, server: 119.59.98.58, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3}
+  - {name: 4Nika-8922, server: 152.69.197.60, port: 1069, type: vmess, uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf, alterId: 0, cipher: auto, tls: false}
+  - {name: 4Nika-8635, server: 140.83.63.38, port: 24445, type: vmess, uuid: 94c5ef37-4d82-49f9-c624-f01259374a17, alterId: 64, cipher: auto, tls: false}
+  - {name: 4Nika-10528, server: 62.146.233.112, port: 36712, type: vmess, uuid: 9266df42-0830-48c2-8509-4c57b30fe29d, alterId: 0, cipher: auto, tls: false}
+  - {name: 4Nika-10365, server: 46.250.253.232, port: 46617, type: vmess, uuid: 55b88b14-0ff3-4f25-8983-e73d1f9f3a0a, alterId: 0, cipher: auto, tls: false}
+  - {name: LT-45.87.175.178-0375, server: 45.87.175.178, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj}
+  - {name: KZ-213.156.137.67-0513, server: 213.156.137.67, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -220,206 +194,180 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇯🇵 JP-149.22.87.241-0375
-      - 🇯🇵 JP-149.22.87.204-0363
-      - 🇸🇬 SG-68.183.227.45-0407
-      - 🇸🇬 SG-68.183.227.4-0395
-      - 🇯🇵 JP-149.22.87.240-0364
-      - 🇸🇬 SG-68.183.227.236-0396
-      - 🇸🇬 SG-128.199.172.224-0413
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇸🇬 SG-139.59.119.143-0394
-      - 🇸🇬 狮城特殊|@ripaojiedian
-      - 🇸🇬 SG-103.106.229.219-0487
+      - 🇯🇵 JP-149.22.87.241-0485
+      - 🇯🇵 JP-149.22.87.204-0488
+      - 🇯🇵 JP-149.22.87.240-0487
       - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇸🇬 SG-68.183.227.45-0506
+      - 🇸🇬 SG-68.183.227.236-0501
+      - 🇸🇬 SG-68.183.227.4-0504
       - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇸🇬 SG-64.176.85.73-0469
-      - 🇨🇳 TW-2.58.241.42-5869
-      - 🇰🇷 KR-54.180.158.248-5787
-      - 🇨🇳 TW-185.189.160.98-0474
-      - 🇰🇷 KR-13.125.226.50-5816
-      - 🇰🇷 KR-43.202.96.177-0372
-      - 🇸🇬 _SG_新加坡->🇺🇸_US_美国
-      - 🇰🇷 韩国2|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇯🇵 日本4|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇨🇳 台湾|@ripaojiedian
+      - 🇸🇬 SG-128.199.172.224-0500
+      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇸🇬 SG-139.59.119.143-0499
+      - 🇸🇬 SG-64.176.85.73-6297
+      - 🇰🇷 KR-13.125.226.50-5946
+      - 🇨🇳 台湾2|@ripaojiedian
+      - 🇸🇬 SG-103.106.229.219-0502
       - 🇭🇰 香港3|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港|@ripaojiedian
       - 🇨🇳 _TW_台湾->🇺🇸_US_美国
-      - 🇯🇵 JP-107.148.6.121-5891
-      - 🇺🇸 US-194.5.215.59-0353
-      - 🇺🇸 US-156.146.38.167-0342
-      - 🇺🇸 US-156.146.38.170-0339
-      - 🇺🇸 US-212.102.47.130-0325
-      - 🇺🇸 US-92.118.112.111-0429
-      - 🇺🇸 US-107.155.57.51-0337
-      - 🇺🇸 US-54.200.164.45-5778
-      - 🇺🇸 _US_美国_5
-      - 🇨🇦 CA-79.127.233.170-0332
-      - 🇺🇸 _GB_英国->🇺🇸_US_美国
-      - 🇺🇸 US-45.55.2.232-0354
-      - 🇺🇸 _US_美国_7
-      - 🇺🇸 US-172.233.128.126-1269
-      - 🇺🇸 US-104.207.155.64-0327
-      - 🇺🇸 US-172.232.171.192-0334
-      - 🇺🇸 US-207.246.101.50-0324
-      - 🇺🇸 US-139.64.165.101-0434
-      - 🇺🇸 美国 CloudFlare节点 10
-      - 🇺🇸 US-194.116.173.21-0439
-      - 🇺🇸 US-38.107.226.146-0471
-      - 🇨🇦 CA-142.4.216.225-0467
-      - 🇺🇸 US-142.202.49.84-0516
-      - 🇺🇸 US-142.202.49.122-5632
-      - 🇺🇸 US-38.107.226.241-7706
-      - 🇺🇸 US-167.88.63.21-6093
-      - 🇺🇸 US-204.136.10.115-0520
+      - 🇸🇬 SG-13.250.12.185-0516
+      - 🇸🇬 SG-47.129.101.151-0521
+      - 🇰🇷 KR-43.202.96.177-0494ss//cmM0LW1kNToxNGZGUHJiZXpFM0hEWnpzTU9yNg@138.199.42.688080#🇺🇸 US-138.199.42.68-0329
+      - 🇺🇸 US-79.110.53.169-0456
+      - 🇺🇸 US-212.102.47.130-0413
+      - 🇨🇦 CA-149.22.95.183-0376
+      - 🇺🇸 US-45.55.2.232-0416
+      - 🇺🇸 US-104.207.155.64-0463
+      - 🇺🇸 US-38.107.226.146-0458
+      - 🇺🇸 US-172.233.128.126-0477
+      - 🇺🇸 US-207.246.101.50-0461
+      - 🇺🇸 US-172.232.171.192-0464
+      - 🇺🇸 US-139.64.165.101-0519
+      - 🇺🇸 US-94.131.123.147-0472
+      - 🇨🇦 CA-142.4.216.225-0489
       - 🇺🇸 _US_美国_2
-      - 🇺🇸 _US_美国_6
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国 2
+      - 🇺🇸 _US_美国_1
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 美国 131
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸 _US_美国_5
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国_1
+      - 🇺🇸 _US_美国_4 4
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇺🇸 _US_美国->🇮🇳_IN_印度 4
       - 🇺🇸 _US_美国 5
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国 2
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
       - 🇨🇳 _TW_台湾->🇺🇸_US_美国 2
       - 🇺🇸 _US_美国 4
       - 🇺🇸 _US_美国 3
       - 🇺🇸 _US_美国 2
-      - 🇺🇸 _US_美国->🇮🇳_IN_印度 3
+      - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 _US_美国->🇸🇦_SA_沙特阿拉伯
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 2
       - 🇺🇸 _US_美国->🇮🇳_IN_印度 2
       - 🇺🇸 _US_美国->🇮🇳_IN_印度
-      - 🇺🇸 _US_美国->🇮🇳_IN_印度 4
+      - 🇺🇸 _US_美国
       - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
       - 🇨🇦 _CA_加拿大
-      - 🇺🇸 US-38.143.66.87-5694
-      - 🇺🇸 US-139.64.165.230-5765
-      - 🇺🇸 US-38.121.43.27-6141
-      - 🇺🇸 US-142.202.49.75-6146
-      - 🇺🇸 US-23.157.40.87-5699
-      - 🇺🇸 US-54.190.43.178-0685
-      - 🇺🇸 US-38.54.94.122-5644
-      - 🇺🇸 _US_美国
-      - 🇺🇸 US-199.180.101.27-5908
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇨🇦 CA-23.162.200.227-0819
-      - 🇺🇸 US-38.33.44.11-5913
-      - 🇺🇸 US-198.200.48.229-5925
-      - 🇺🇸 US-38.14.107.233-8121
-      - 🇺🇸 US-38.14.107.225-8119
-      - 🇺🇸 US-38.33.34.38-5928
-      - 🇺🇸 _US_美国_4
-      - 🇺🇸 US-38.11.50.66-5663
-      - 🇺🇸 US-137.175.21.181-5655
-      - 🇺🇸 US-137.175.41.105-5926
-      - 🇺🇸 US-154.3.8.151-1263
-      - 🇺🇸 US-38.14.107.228-8144
-      - 🇺🇸 US-137.175.21.180-5914
-      - 🇺🇸 US-38.14.107.226-5659
-      - 🇸🇬 _SG_新加坡->🇺🇸_US_美国 2
-      - 🇨🇦 CA-134.195.198.147-8157
-      - 🇺🇸 US-44.194.46.61-6069
-      - 🇺🇸 US-142.202.48.105-5698
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国_2
+      - 🇺🇸 US-38.54.94.122-5774
+      - 🇺🇸 US-38.14.107.233-8259
+      - 🇺🇸 US-38.14.107.228-8246
+      - 🇺🇸 US-38.14.107.225-8281
+      - 🇺🇸 US-137.175.41.105-6056
+      - 🇺🇸 US-38.33.34.38-6058
+      - 🇺🇸 US-38.33.44.11-6043
+      - 🇺🇸 US-38.11.50.66-5793
+      - 🇺🇸 US-199.180.101.27-6038
+      - 🇺🇸 US-137.175.21.180-6044
+      - 🇺🇸 US-137.175.21.181-5785
+      - 🇺🇸 US-198.200.48.229-6055
+      - 🇺🇸 US-38.14.107.226-5789
+      - 🇨🇦 CA-23.162.200.227-0818
+      - 🇨🇦 CA-134.195.198.147-8251
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 3
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
       - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
-      - 🇺🇸 _US_美国_1
+      - 🇺🇸 美国 028
+      - 🇺🇸 美国【付费推荐：https//socks.news】8
       - 🇺🇸 _US_美国->🇩🇪_DE_德国_1
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
-      - 🇺🇸 美国 031
-      - 🇺🇸 美国 074
-      - 🇺🇸 美国 088
-      - 🇺🇸 美国 113
-      - 🇫🇷 FR-45.158.171.141-0382
-      - 🇳🇱 NL-193.29.139.162-0384
-      - 4Nika-1274
-      - 🇬🇧 GB-212.102.53.80-0415
-      - CH-156.146.62.162-0446
-      - 4Nika-122
-      - 4Nika-8655
-      - 🇬🇧 GB-212.102.53.78-0410
-      - CH-156.146.62.163-0421
-      - CZ-195.181.160.6-0466
-      - 4Nika-597
-      - CH-156.146.62.164-0417
-      - 🇬🇧 GB-212.102.53.195-0416
-      - 🇬🇧 GB-212.102.53.196-0400
-      - 🇬🇧 GB-212.102.53.81-0414
-      - 🇬🇧 GB-212.102.53.198-0408
-      - SE-121.127.46.147-0392
-      - 4Nika-8213
-      - 🇬🇧 GB-212.102.53.193-0405
-      - 🇫🇷 FR-45.158.171.151-0450
-      - CL-37.143.128.195-6025
-      - 🇵🇱 PL-92.118.205.228-0422
-      - 4Nika-9416
-      - 4Nika-463
-      - 4Nika-579
+      - 4Nika-678
+      - LT-45.87.175.157-0379
+      - LT-45.87.175.188-0362
+      - 🇳🇱 NL-193.29.139.164-0377
+      - 🇳🇱 NL-193.29.139.179-0355
+      - 4Nika-11
+      - LT-45.87.175.178-0265
+      - 🇳🇱 NL-193.29.139.227-0372
+      - 4Nika-115
+      - 4Nika-1264
+      - 🇬🇧 GB-20.77.162.77-0382
+      - 4Nika-161
+      - 🇳🇱 NL-149.34.244.68-0402
+      - 🇳🇱 NL-149.34.244.72-0473
+      - 🇳🇱 NL-149.34.244.82-0403
+      - 4Nika-1283
+      - HU-91.219.237.102-0470
+      - 4Nika-8741
+      - 🇳🇱 NL-193.29.139.157-0432
+      - 4Nika-490
+      - CH-156.146.62.162-0434
+      - 🇬🇧 GB-212.102.53.197-0408
+      - CH-156.146.62.161-0439
+      - 🇬🇧 GB-212.102.53.80-0448
+      - 4Nika-8298
+      - 🇬🇧 GB-169.150.210.233-0415
+      - 🇳🇱 NL-5.35.47.122-0417
+      - 🇬🇧 GB-212.102.53.193-0428
+      - 4Nika-1096
+      - 🇬🇧 GB-212.102.53.79-0436
+      - 4Nika-8883
+      - 4Nika-807
+      - 🇬🇧 GB-212.102.53.196-0404
+      - 🇫🇷 FR-45.158.171.146-0396
+      - 🇬🇧 GB-212.102.53.81-0429
+      - CH-156.146.62.164-0437
+      - 4Nika-1367
+      - 🇬🇧 GB-212.102.53.198-0443
       - 🇬🇧 GB-212.102.53.194-0140
-      - 4Nika-485
-      - SE-46.246.98.155-0426
-      - 4Nika-111
-      - RS-194.71.126.31-0448
-      - SK-156.146.40.194-0409
-      - 4Nika-571
-      - 🇳🇱 NL-193.29.139.138-0501
-      - 4Nika-9782
-      - 4Nika-10940
-      - 4Nika-593
-      - 4Nika-9965
-      - 4Nika-1122
-      - 4Nika-17
-      - 4Nika-10190
-      - 4Nika-1023
-      - 4Nika-10862
-      - 4Nika-9805
-      - 4Nika-491
-      - 4Nika-10051
-      - 4Nika-760
-      - 4Nika-8838
-      - 4Nika-5193
-      - 4Nika-1334
-      - KZ-213.156.137.67-1107
+      - 🇳🇱 NL-149.34.244.77-0389
+      - 🇬🇧 GB-212.102.53.195-0445
+      - SE-121.127.46.147-0422
+      - 🇵🇱 PL-92.118.205.228-0440
+      - CZ-195.181.160.6-0423
+      - CL-37.143.128.195-0435
+      - 🇫🇷 FR-185.234.64.35-0410
+      - 4Nika-10056
       - 4Nika-184
-      - 🇸🇬 狮城特殊|@ripaojiedian 2
-      - 4Nika-9807
-      - 4Nika-1007
-      - 🇬🇧 GB-141.98.101.180-0462
-      - 4Nika-10585
-      - RELAY-198.41.209.70-0452
-      - RELAY-104.19.48.236-0250
-      - RELAY-104.17.213.241-0443
-      - 4Nika-8549
-      - 🇬🇧 GB-141.98.101.178-0484
-      - 4Nika-1371
-      - 4Nika-3170
-      - 4Nika-1369
-      - 🇮🇳 IN-159.65.149.72-0457
-      - 4Nika-1036
-      - 4Nika-1106
-      - 🇬🇧 GB-141.98.101.182-0502
-      - 4Nika-158
-      - 4Nika-10994
-      - 4Nika-1031
-      - 4Nika-13
-      - 4Nika-1250
-      - AE-40.172.178.194-0479
-      - 🇬🇧 GB-141.98.101.179-0461
-      - 4Nika-10751
-      - 4Nika-3759
-      - 4Nika-5171
-      - 4Nika-5175
-      - 🇫🇷 FR-5.196.29.123-6186
-      - 4Nika-5124
-      - 4Nika-10442
-      - 4Nika-548
-      - 4Nika-5109
-      - 🇩🇰 DK-192.36.27.94-0500
-      - BH-15.184.159.161-0499
-      - 4Nika-9801
-      - SE-176.124.202.137-0496
-      - 4Nika-169
+      - 4Nika-10059
+      - RS-194.71.126.31-0450
+      - SE-46.246.98.155-0446
+      - 4Nika-1058
+      - 🇬🇧 GB-141.98.101.178-0474
+      - 4Nika-5179
+      - 4Nika-597
+      - 4Nika-583
+      - 4Nika-778
+      - 🇬🇧 GB-141.98.101.182-0522
+      - 4Nika-186
+      - CH-156.146.62.163-0421
+      - 🇷🇺 RU-45.151.62.54-0469
+      - 4Nika-575
+      - 4Nika-10143
+      - 4Nika-9502
+      - SK-156.146.40.194-0465
+      - 🇵🇱 PL-45.144.48.63-0471
+      - 4Nika-1235
+      - 4Nika-10367
+      - 4Nika-9869
+      - EE-147.45.60.33-0455
+      - 4Nika-637
+      - 4Nika-325%% 8
+      - 4Nika-10279
+      - 4Nika-9898
+      - 4Nika-625
+      - 4Nika-9899
+      - 4Nika-465
+      - 4Nika-9895
+      - 4Nika-188
+      - BH-157.175.10.239-0505
+      - MD-103.106.1.92-0374
+      - AE-40.172.178.194-0514
+      - TH-119.59.98.58-6282
+      - 4Nika-8922
+      - 4Nika-8635
+      - 4Nika-10528
+      - 4Nika-10365
+      - LT-45.87.175.178-0375
+      - KZ-213.156.137.67-0513
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -470,540 +418,460 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 JP-149.22.87.241-0375
-      - 🇯🇵 JP-149.22.87.204-0363
-      - 🇸🇬 SG-68.183.227.45-0407
-      - 🇸🇬 SG-68.183.227.4-0395
-      - 🇯🇵 JP-149.22.87.240-0364
-      - 🇸🇬 SG-68.183.227.236-0396
-      - 🇸🇬 SG-128.199.172.224-0413
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇸🇬 SG-139.59.119.143-0394
-      - 🇸🇬 狮城特殊|@ripaojiedian
-      - 🇸🇬 SG-103.106.229.219-0487
+      - 🇯🇵 JP-149.22.87.241-0485
+      - 🇯🇵 JP-149.22.87.204-0488
+      - 🇯🇵 JP-149.22.87.240-0487
       - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇸🇬 SG-68.183.227.45-0506
+      - 🇸🇬 SG-68.183.227.236-0501
+      - 🇸🇬 SG-68.183.227.4-0504
       - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇸🇬 SG-64.176.85.73-0469
-      - 🇨🇳 TW-2.58.241.42-5869
-      - 🇰🇷 KR-54.180.158.248-5787
-      - 🇨🇳 TW-185.189.160.98-0474
-      - 🇰🇷 KR-13.125.226.50-5816
-      - 🇰🇷 KR-43.202.96.177-0372
-      - 🇸🇬 _SG_新加坡->🇺🇸_US_美国
-      - 🇰🇷 韩国2|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇯🇵 日本4|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇨🇳 台湾|@ripaojiedian
+      - 🇸🇬 SG-128.199.172.224-0500
+      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇸🇬 SG-139.59.119.143-0499
+      - 🇸🇬 SG-64.176.85.73-6297
+      - 🇰🇷 KR-13.125.226.50-5946
+      - 🇨🇳 台湾2|@ripaojiedian
+      - 🇸🇬 SG-103.106.229.219-0502
       - 🇭🇰 香港3|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港|@ripaojiedian
       - 🇨🇳 _TW_台湾->🇺🇸_US_美国
-      - 🇯🇵 JP-107.148.6.121-5891
-      - 🇺🇸 US-194.5.215.59-0353
-      - 🇺🇸 US-156.146.38.167-0342
-      - 🇺🇸 US-156.146.38.170-0339
-      - 🇺🇸 US-212.102.47.130-0325
-      - 🇺🇸 US-92.118.112.111-0429
-      - 🇺🇸 US-107.155.57.51-0337
-      - 🇺🇸 US-54.200.164.45-5778
-      - 🇺🇸 _US_美国_5
-      - 🇨🇦 CA-79.127.233.170-0332
-      - 🇺🇸 _GB_英国->🇺🇸_US_美国
-      - 🇺🇸 US-45.55.2.232-0354
-      - 🇺🇸 _US_美国_7
-      - 🇺🇸 US-172.233.128.126-1269
-      - 🇺🇸 US-104.207.155.64-0327
-      - 🇺🇸 US-172.232.171.192-0334
-      - 🇺🇸 US-207.246.101.50-0324
-      - 🇺🇸 US-139.64.165.101-0434
-      - 🇺🇸 美国 CloudFlare节点 10
-      - 🇺🇸 US-194.116.173.21-0439
-      - 🇺🇸 US-38.107.226.146-0471
-      - 🇨🇦 CA-142.4.216.225-0467
-      - 🇺🇸 US-142.202.49.84-0516
-      - 🇺🇸 US-142.202.49.122-5632
-      - 🇺🇸 US-38.107.226.241-7706
-      - 🇺🇸 US-167.88.63.21-6093
-      - 🇺🇸 US-204.136.10.115-0520
+      - 🇸🇬 SG-13.250.12.185-0516
+      - 🇸🇬 SG-47.129.101.151-0521
+      - 🇰🇷 KR-43.202.96.177-0494ss//cmM0LW1kNToxNGZGUHJiZXpFM0hEWnpzTU9yNg@138.199.42.688080#🇺🇸 US-138.199.42.68-0329
+      - 🇺🇸 US-79.110.53.169-0456
+      - 🇺🇸 US-212.102.47.130-0413
+      - 🇨🇦 CA-149.22.95.183-0376
+      - 🇺🇸 US-45.55.2.232-0416
+      - 🇺🇸 US-104.207.155.64-0463
+      - 🇺🇸 US-38.107.226.146-0458
+      - 🇺🇸 US-172.233.128.126-0477
+      - 🇺🇸 US-207.246.101.50-0461
+      - 🇺🇸 US-172.232.171.192-0464
+      - 🇺🇸 US-139.64.165.101-0519
+      - 🇺🇸 US-94.131.123.147-0472
+      - 🇨🇦 CA-142.4.216.225-0489
       - 🇺🇸 _US_美国_2
-      - 🇺🇸 _US_美国_6
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国 2
+      - 🇺🇸 _US_美国_1
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 美国 131
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸 _US_美国_5
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国_1
+      - 🇺🇸 _US_美国_4 4
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇺🇸 _US_美国->🇮🇳_IN_印度 4
       - 🇺🇸 _US_美国 5
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国 2
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
       - 🇨🇳 _TW_台湾->🇺🇸_US_美国 2
       - 🇺🇸 _US_美国 4
       - 🇺🇸 _US_美国 3
       - 🇺🇸 _US_美国 2
-      - 🇺🇸 _US_美国->🇮🇳_IN_印度 3
+      - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 _US_美国->🇸🇦_SA_沙特阿拉伯
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 2
       - 🇺🇸 _US_美国->🇮🇳_IN_印度 2
       - 🇺🇸 _US_美国->🇮🇳_IN_印度
-      - 🇺🇸 _US_美国->🇮🇳_IN_印度 4
+      - 🇺🇸 _US_美国
       - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
       - 🇨🇦 _CA_加拿大
-      - 🇺🇸 US-38.143.66.87-5694
-      - 🇺🇸 US-139.64.165.230-5765
-      - 🇺🇸 US-38.121.43.27-6141
-      - 🇺🇸 US-142.202.49.75-6146
-      - 🇺🇸 US-23.157.40.87-5699
-      - 🇺🇸 US-54.190.43.178-0685
-      - 🇺🇸 US-38.54.94.122-5644
-      - 🇺🇸 _US_美国
-      - 🇺🇸 US-199.180.101.27-5908
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇨🇦 CA-23.162.200.227-0819
-      - 🇺🇸 US-38.33.44.11-5913
-      - 🇺🇸 US-198.200.48.229-5925
-      - 🇺🇸 US-38.14.107.233-8121
-      - 🇺🇸 US-38.14.107.225-8119
-      - 🇺🇸 US-38.33.34.38-5928
-      - 🇺🇸 _US_美国_4
-      - 🇺🇸 US-38.11.50.66-5663
-      - 🇺🇸 US-137.175.21.181-5655
-      - 🇺🇸 US-137.175.41.105-5926
-      - 🇺🇸 US-154.3.8.151-1263
-      - 🇺🇸 US-38.14.107.228-8144
-      - 🇺🇸 US-137.175.21.180-5914
-      - 🇺🇸 US-38.14.107.226-5659
-      - 🇸🇬 _SG_新加坡->🇺🇸_US_美国 2
-      - 🇨🇦 CA-134.195.198.147-8157
-      - 🇺🇸 US-44.194.46.61-6069
-      - 🇺🇸 US-142.202.48.105-5698
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国_2
+      - 🇺🇸 US-38.54.94.122-5774
+      - 🇺🇸 US-38.14.107.233-8259
+      - 🇺🇸 US-38.14.107.228-8246
+      - 🇺🇸 US-38.14.107.225-8281
+      - 🇺🇸 US-137.175.41.105-6056
+      - 🇺🇸 US-38.33.34.38-6058
+      - 🇺🇸 US-38.33.44.11-6043
+      - 🇺🇸 US-38.11.50.66-5793
+      - 🇺🇸 US-199.180.101.27-6038
+      - 🇺🇸 US-137.175.21.180-6044
+      - 🇺🇸 US-137.175.21.181-5785
+      - 🇺🇸 US-198.200.48.229-6055
+      - 🇺🇸 US-38.14.107.226-5789
+      - 🇨🇦 CA-23.162.200.227-0818
+      - 🇨🇦 CA-134.195.198.147-8251
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 3
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
       - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
-      - 🇺🇸 _US_美国_1
+      - 🇺🇸 美国 028
+      - 🇺🇸 美国【付费推荐：https//socks.news】8
       - 🇺🇸 _US_美国->🇩🇪_DE_德国_1
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
-      - 🇺🇸 美国 031
-      - 🇺🇸 美国 074
-      - 🇺🇸 美国 088
-      - 🇺🇸 美国 113
-      - 🇫🇷 FR-45.158.171.141-0382
-      - 🇳🇱 NL-193.29.139.162-0384
-      - 4Nika-1274
-      - 🇬🇧 GB-212.102.53.80-0415
-      - CH-156.146.62.162-0446
-      - 4Nika-122
-      - 4Nika-8655
-      - 🇬🇧 GB-212.102.53.78-0410
-      - CH-156.146.62.163-0421
-      - CZ-195.181.160.6-0466
-      - 4Nika-597
-      - CH-156.146.62.164-0417
-      - 🇬🇧 GB-212.102.53.195-0416
-      - 🇬🇧 GB-212.102.53.196-0400
-      - 🇬🇧 GB-212.102.53.81-0414
-      - 🇬🇧 GB-212.102.53.198-0408
-      - SE-121.127.46.147-0392
-      - 4Nika-8213
-      - 🇬🇧 GB-212.102.53.193-0405
-      - 🇫🇷 FR-45.158.171.151-0450
-      - CL-37.143.128.195-6025
-      - 🇵🇱 PL-92.118.205.228-0422
-      - 4Nika-9416
-      - 4Nika-463
-      - 4Nika-579
+      - 4Nika-678
+      - LT-45.87.175.157-0379
+      - LT-45.87.175.188-0362
+      - 🇳🇱 NL-193.29.139.164-0377
+      - 🇳🇱 NL-193.29.139.179-0355
+      - 4Nika-11
+      - LT-45.87.175.178-0265
+      - 🇳🇱 NL-193.29.139.227-0372
+      - 4Nika-115
+      - 4Nika-1264
+      - 🇬🇧 GB-20.77.162.77-0382
+      - 4Nika-161
+      - 🇳🇱 NL-149.34.244.68-0402
+      - 🇳🇱 NL-149.34.244.72-0473
+      - 🇳🇱 NL-149.34.244.82-0403
+      - 4Nika-1283
+      - HU-91.219.237.102-0470
+      - 4Nika-8741
+      - 🇳🇱 NL-193.29.139.157-0432
+      - 4Nika-490
+      - CH-156.146.62.162-0434
+      - 🇬🇧 GB-212.102.53.197-0408
+      - CH-156.146.62.161-0439
+      - 🇬🇧 GB-212.102.53.80-0448
+      - 4Nika-8298
+      - 🇬🇧 GB-169.150.210.233-0415
+      - 🇳🇱 NL-5.35.47.122-0417
+      - 🇬🇧 GB-212.102.53.193-0428
+      - 4Nika-1096
+      - 🇬🇧 GB-212.102.53.79-0436
+      - 4Nika-8883
+      - 4Nika-807
+      - 🇬🇧 GB-212.102.53.196-0404
+      - 🇫🇷 FR-45.158.171.146-0396
+      - 🇬🇧 GB-212.102.53.81-0429
+      - CH-156.146.62.164-0437
+      - 4Nika-1367
+      - 🇬🇧 GB-212.102.53.198-0443
       - 🇬🇧 GB-212.102.53.194-0140
-      - 4Nika-485
-      - SE-46.246.98.155-0426
-      - 4Nika-111
-      - RS-194.71.126.31-0448
-      - SK-156.146.40.194-0409
-      - 4Nika-571
-      - 🇳🇱 NL-193.29.139.138-0501
-      - 4Nika-9782
-      - 4Nika-10940
-      - 4Nika-593
-      - 4Nika-9965
-      - 4Nika-1122
-      - 4Nika-17
-      - 4Nika-10190
-      - 4Nika-1023
-      - 4Nika-10862
-      - 4Nika-9805
-      - 4Nika-491
-      - 4Nika-10051
-      - 4Nika-760
-      - 4Nika-8838
-      - 4Nika-5193
-      - 4Nika-1334
-      - KZ-213.156.137.67-1107
+      - 🇳🇱 NL-149.34.244.77-0389
+      - 🇬🇧 GB-212.102.53.195-0445
+      - SE-121.127.46.147-0422
+      - 🇵🇱 PL-92.118.205.228-0440
+      - CZ-195.181.160.6-0423
+      - CL-37.143.128.195-0435
+      - 🇫🇷 FR-185.234.64.35-0410
+      - 4Nika-10056
       - 4Nika-184
-      - 🇸🇬 狮城特殊|@ripaojiedian 2
-      - 4Nika-9807
-      - 4Nika-1007
-      - 🇬🇧 GB-141.98.101.180-0462
-      - 4Nika-10585
-      - RELAY-198.41.209.70-0452
-      - RELAY-104.19.48.236-0250
-      - RELAY-104.17.213.241-0443
-      - 4Nika-8549
-      - 🇬🇧 GB-141.98.101.178-0484
-      - 4Nika-1371
-      - 4Nika-3170
-      - 4Nika-1369
-      - 🇮🇳 IN-159.65.149.72-0457
-      - 4Nika-1036
-      - 4Nika-1106
-      - 🇬🇧 GB-141.98.101.182-0502
-      - 4Nika-158
-      - 4Nika-10994
-      - 4Nika-1031
-      - 4Nika-13
-      - 4Nika-1250
-      - AE-40.172.178.194-0479
-      - 🇬🇧 GB-141.98.101.179-0461
-      - 4Nika-10751
-      - 4Nika-3759
-      - 4Nika-5171
-      - 4Nika-5175
-      - 🇫🇷 FR-5.196.29.123-6186
-      - 4Nika-5124
-      - 4Nika-10442
-      - 4Nika-548
-      - 4Nika-5109
-      - 🇩🇰 DK-192.36.27.94-0500
-      - BH-15.184.159.161-0499
-      - 4Nika-9801
-      - SE-176.124.202.137-0496
-      - 4Nika-169
+      - 4Nika-10059
+      - RS-194.71.126.31-0450
+      - SE-46.246.98.155-0446
+      - 4Nika-1058
+      - 🇬🇧 GB-141.98.101.178-0474
+      - 4Nika-5179
+      - 4Nika-597
+      - 4Nika-583
+      - 4Nika-778
+      - 🇬🇧 GB-141.98.101.182-0522
+      - 4Nika-186
+      - CH-156.146.62.163-0421
+      - 🇷🇺 RU-45.151.62.54-0469
+      - 4Nika-575
+      - 4Nika-10143
+      - 4Nika-9502
+      - SK-156.146.40.194-0465
+      - 🇵🇱 PL-45.144.48.63-0471
+      - 4Nika-1235
+      - 4Nika-10367
+      - 4Nika-9869
+      - EE-147.45.60.33-0455
+      - 4Nika-637
+      - 4Nika-325%% 8
+      - 4Nika-10279
+      - 4Nika-9898
+      - 4Nika-625
+      - 4Nika-9899
+      - 4Nika-465
+      - 4Nika-9895
+      - 4Nika-188
+      - BH-157.175.10.239-0505
+      - MD-103.106.1.92-0374
+      - AE-40.172.178.194-0514
+      - TH-119.59.98.58-6282
+      - 4Nika-8922
+      - 4Nika-8635
+      - 4Nika-10528
+      - 4Nika-10365
+      - LT-45.87.175.178-0375
+      - KZ-213.156.137.67-0513
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 JP-149.22.87.241-0375
-      - 🇯🇵 JP-149.22.87.204-0363
-      - 🇸🇬 SG-68.183.227.45-0407
-      - 🇸🇬 SG-68.183.227.4-0395
-      - 🇯🇵 JP-149.22.87.240-0364
-      - 🇸🇬 SG-68.183.227.236-0396
-      - 🇸🇬 SG-128.199.172.224-0413
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇸🇬 SG-139.59.119.143-0394
-      - 🇸🇬 狮城特殊|@ripaojiedian
-      - 🇸🇬 SG-103.106.229.219-0487
+      - 🇯🇵 JP-149.22.87.241-0485
+      - 🇯🇵 JP-149.22.87.204-0488
+      - 🇯🇵 JP-149.22.87.240-0487
       - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇸🇬 SG-68.183.227.45-0506
+      - 🇸🇬 SG-68.183.227.236-0501
+      - 🇸🇬 SG-68.183.227.4-0504
       - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇸🇬 SG-64.176.85.73-0469
-      - 🇨🇳 TW-2.58.241.42-5869
-      - 🇰🇷 KR-54.180.158.248-5787
-      - 🇨🇳 TW-185.189.160.98-0474
-      - 🇰🇷 KR-13.125.226.50-5816
-      - 🇰🇷 KR-43.202.96.177-0372
-      - 🇸🇬 _SG_新加坡->🇺🇸_US_美国
-      - 🇰🇷 韩国2|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇯🇵 日本4|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇨🇳 台湾|@ripaojiedian
+      - 🇸🇬 SG-128.199.172.224-0500
+      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇸🇬 SG-139.59.119.143-0499
+      - 🇸🇬 SG-64.176.85.73-6297
+      - 🇰🇷 KR-13.125.226.50-5946
+      - 🇨🇳 台湾2|@ripaojiedian
+      - 🇸🇬 SG-103.106.229.219-0502
       - 🇭🇰 香港3|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港|@ripaojiedian
       - 🇨🇳 _TW_台湾->🇺🇸_US_美国
-      - 🇯🇵 JP-107.148.6.121-5891
-      - 🇺🇸 US-194.5.215.59-0353
-      - 🇺🇸 US-156.146.38.167-0342
-      - 🇺🇸 US-156.146.38.170-0339
-      - 🇺🇸 US-212.102.47.130-0325
-      - 🇺🇸 US-92.118.112.111-0429
-      - 🇺🇸 US-107.155.57.51-0337
-      - 🇺🇸 US-54.200.164.45-5778
-      - 🇺🇸 _US_美国_5
-      - 🇨🇦 CA-79.127.233.170-0332
-      - 🇺🇸 _GB_英国->🇺🇸_US_美国
-      - 🇺🇸 US-45.55.2.232-0354
-      - 🇺🇸 _US_美国_7
-      - 🇺🇸 US-172.233.128.126-1269
-      - 🇺🇸 US-104.207.155.64-0327
-      - 🇺🇸 US-172.232.171.192-0334
-      - 🇺🇸 US-207.246.101.50-0324
-      - 🇺🇸 US-139.64.165.101-0434
-      - 🇺🇸 美国 CloudFlare节点 10
-      - 🇺🇸 US-194.116.173.21-0439
-      - 🇺🇸 US-38.107.226.146-0471
-      - 🇨🇦 CA-142.4.216.225-0467
-      - 🇺🇸 US-142.202.49.84-0516
-      - 🇺🇸 US-142.202.49.122-5632
-      - 🇺🇸 US-38.107.226.241-7706
-      - 🇺🇸 US-167.88.63.21-6093
-      - 🇺🇸 US-204.136.10.115-0520
+      - 🇸🇬 SG-13.250.12.185-0516
+      - 🇸🇬 SG-47.129.101.151-0521
+      - 🇰🇷 KR-43.202.96.177-0494ss//cmM0LW1kNToxNGZGUHJiZXpFM0hEWnpzTU9yNg@138.199.42.688080#🇺🇸 US-138.199.42.68-0329
+      - 🇺🇸 US-79.110.53.169-0456
+      - 🇺🇸 US-212.102.47.130-0413
+      - 🇨🇦 CA-149.22.95.183-0376
+      - 🇺🇸 US-45.55.2.232-0416
+      - 🇺🇸 US-104.207.155.64-0463
+      - 🇺🇸 US-38.107.226.146-0458
+      - 🇺🇸 US-172.233.128.126-0477
+      - 🇺🇸 US-207.246.101.50-0461
+      - 🇺🇸 US-172.232.171.192-0464
+      - 🇺🇸 US-139.64.165.101-0519
+      - 🇺🇸 US-94.131.123.147-0472
+      - 🇨🇦 CA-142.4.216.225-0489
       - 🇺🇸 _US_美国_2
-      - 🇺🇸 _US_美国_6
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国 2
+      - 🇺🇸 _US_美国_1
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 美国 131
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸 _US_美国_5
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国_1
+      - 🇺🇸 _US_美国_4 4
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇺🇸 _US_美国->🇮🇳_IN_印度 4
       - 🇺🇸 _US_美国 5
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国 2
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
       - 🇨🇳 _TW_台湾->🇺🇸_US_美国 2
       - 🇺🇸 _US_美国 4
       - 🇺🇸 _US_美国 3
       - 🇺🇸 _US_美国 2
-      - 🇺🇸 _US_美国->🇮🇳_IN_印度 3
+      - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 _US_美国->🇸🇦_SA_沙特阿拉伯
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 2
       - 🇺🇸 _US_美国->🇮🇳_IN_印度 2
       - 🇺🇸 _US_美国->🇮🇳_IN_印度
-      - 🇺🇸 _US_美国->🇮🇳_IN_印度 4
+      - 🇺🇸 _US_美国
       - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
       - 🇨🇦 _CA_加拿大
-      - 🇺🇸 US-38.143.66.87-5694
-      - 🇺🇸 US-139.64.165.230-5765
-      - 🇺🇸 US-38.121.43.27-6141
-      - 🇺🇸 US-142.202.49.75-6146
-      - 🇺🇸 US-23.157.40.87-5699
-      - 🇺🇸 US-54.190.43.178-0685
-      - 🇺🇸 US-38.54.94.122-5644
-      - 🇺🇸 _US_美国
-      - 🇺🇸 US-199.180.101.27-5908
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇨🇦 CA-23.162.200.227-0819
-      - 🇺🇸 US-38.33.44.11-5913
-      - 🇺🇸 US-198.200.48.229-5925
-      - 🇺🇸 US-38.14.107.233-8121
-      - 🇺🇸 US-38.14.107.225-8119
-      - 🇺🇸 US-38.33.34.38-5928
-      - 🇺🇸 _US_美国_4
-      - 🇺🇸 US-38.11.50.66-5663
-      - 🇺🇸 US-137.175.21.181-5655
-      - 🇺🇸 US-137.175.41.105-5926
-      - 🇺🇸 US-154.3.8.151-1263
-      - 🇺🇸 US-38.14.107.228-8144
-      - 🇺🇸 US-137.175.21.180-5914
-      - 🇺🇸 US-38.14.107.226-5659
-      - 🇸🇬 _SG_新加坡->🇺🇸_US_美国 2
-      - 🇨🇦 CA-134.195.198.147-8157
-      - 🇺🇸 US-44.194.46.61-6069
-      - 🇺🇸 US-142.202.48.105-5698
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国_2
+      - 🇺🇸 US-38.54.94.122-5774
+      - 🇺🇸 US-38.14.107.233-8259
+      - 🇺🇸 US-38.14.107.228-8246
+      - 🇺🇸 US-38.14.107.225-8281
+      - 🇺🇸 US-137.175.41.105-6056
+      - 🇺🇸 US-38.33.34.38-6058
+      - 🇺🇸 US-38.33.44.11-6043
+      - 🇺🇸 US-38.11.50.66-5793
+      - 🇺🇸 US-199.180.101.27-6038
+      - 🇺🇸 US-137.175.21.180-6044
+      - 🇺🇸 US-137.175.21.181-5785
+      - 🇺🇸 US-198.200.48.229-6055
+      - 🇺🇸 US-38.14.107.226-5789
+      - 🇨🇦 CA-23.162.200.227-0818
+      - 🇨🇦 CA-134.195.198.147-8251
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 3
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
       - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
-      - 🇺🇸 _US_美国_1
+      - 🇺🇸 美国 028
+      - 🇺🇸 美国【付费推荐：https//socks.news】8
       - 🇺🇸 _US_美国->🇩🇪_DE_德国_1
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
-      - 🇺🇸 美国 031
-      - 🇺🇸 美国 074
-      - 🇺🇸 美国 088
-      - 🇺🇸 美国 113
-      - 🇫🇷 FR-45.158.171.141-0382
-      - 🇳🇱 NL-193.29.139.162-0384
-      - 4Nika-1274
-      - 🇬🇧 GB-212.102.53.80-0415
-      - CH-156.146.62.162-0446
-      - 4Nika-122
-      - 4Nika-8655
-      - 🇬🇧 GB-212.102.53.78-0410
-      - CH-156.146.62.163-0421
-      - CZ-195.181.160.6-0466
-      - 4Nika-597
-      - CH-156.146.62.164-0417
-      - 🇬🇧 GB-212.102.53.195-0416
-      - 🇬🇧 GB-212.102.53.196-0400
-      - 🇬🇧 GB-212.102.53.81-0414
-      - 🇬🇧 GB-212.102.53.198-0408
-      - SE-121.127.46.147-0392
-      - 4Nika-8213
-      - 🇬🇧 GB-212.102.53.193-0405
-      - 🇫🇷 FR-45.158.171.151-0450
-      - CL-37.143.128.195-6025
-      - 🇵🇱 PL-92.118.205.228-0422
-      - 4Nika-9416
-      - 4Nika-463
-      - 4Nika-579
+      - 4Nika-678
+      - LT-45.87.175.157-0379
+      - LT-45.87.175.188-0362
+      - 🇳🇱 NL-193.29.139.164-0377
+      - 🇳🇱 NL-193.29.139.179-0355
+      - 4Nika-11
+      - LT-45.87.175.178-0265
+      - 🇳🇱 NL-193.29.139.227-0372
+      - 4Nika-115
+      - 4Nika-1264
+      - 🇬🇧 GB-20.77.162.77-0382
+      - 4Nika-161
+      - 🇳🇱 NL-149.34.244.68-0402
+      - 🇳🇱 NL-149.34.244.72-0473
+      - 🇳🇱 NL-149.34.244.82-0403
+      - 4Nika-1283
+      - HU-91.219.237.102-0470
+      - 4Nika-8741
+      - 🇳🇱 NL-193.29.139.157-0432
+      - 4Nika-490
+      - CH-156.146.62.162-0434
+      - 🇬🇧 GB-212.102.53.197-0408
+      - CH-156.146.62.161-0439
+      - 🇬🇧 GB-212.102.53.80-0448
+      - 4Nika-8298
+      - 🇬🇧 GB-169.150.210.233-0415
+      - 🇳🇱 NL-5.35.47.122-0417
+      - 🇬🇧 GB-212.102.53.193-0428
+      - 4Nika-1096
+      - 🇬🇧 GB-212.102.53.79-0436
+      - 4Nika-8883
+      - 4Nika-807
+      - 🇬🇧 GB-212.102.53.196-0404
+      - 🇫🇷 FR-45.158.171.146-0396
+      - 🇬🇧 GB-212.102.53.81-0429
+      - CH-156.146.62.164-0437
+      - 4Nika-1367
+      - 🇬🇧 GB-212.102.53.198-0443
       - 🇬🇧 GB-212.102.53.194-0140
-      - 4Nika-485
-      - SE-46.246.98.155-0426
-      - 4Nika-111
-      - RS-194.71.126.31-0448
-      - SK-156.146.40.194-0409
-      - 4Nika-571
-      - 🇳🇱 NL-193.29.139.138-0501
-      - 4Nika-9782
-      - 4Nika-10940
-      - 4Nika-593
-      - 4Nika-9965
-      - 4Nika-1122
-      - 4Nika-17
-      - 4Nika-10190
-      - 4Nika-1023
-      - 4Nika-10862
-      - 4Nika-9805
-      - 4Nika-491
-      - 4Nika-10051
-      - 4Nika-760
-      - 4Nika-8838
-      - 4Nika-5193
-      - 4Nika-1334
-      - KZ-213.156.137.67-1107
+      - 🇳🇱 NL-149.34.244.77-0389
+      - 🇬🇧 GB-212.102.53.195-0445
+      - SE-121.127.46.147-0422
+      - 🇵🇱 PL-92.118.205.228-0440
+      - CZ-195.181.160.6-0423
+      - CL-37.143.128.195-0435
+      - 🇫🇷 FR-185.234.64.35-0410
+      - 4Nika-10056
       - 4Nika-184
-      - 🇸🇬 狮城特殊|@ripaojiedian 2
-      - 4Nika-9807
-      - 4Nika-1007
-      - 🇬🇧 GB-141.98.101.180-0462
-      - 4Nika-10585
-      - RELAY-198.41.209.70-0452
-      - RELAY-104.19.48.236-0250
-      - RELAY-104.17.213.241-0443
-      - 4Nika-8549
-      - 🇬🇧 GB-141.98.101.178-0484
-      - 4Nika-1371
-      - 4Nika-3170
-      - 4Nika-1369
-      - 🇮🇳 IN-159.65.149.72-0457
-      - 4Nika-1036
-      - 4Nika-1106
-      - 🇬🇧 GB-141.98.101.182-0502
-      - 4Nika-158
-      - 4Nika-10994
-      - 4Nika-1031
-      - 4Nika-13
-      - 4Nika-1250
-      - AE-40.172.178.194-0479
-      - 🇬🇧 GB-141.98.101.179-0461
-      - 4Nika-10751
-      - 4Nika-3759
-      - 4Nika-5171
-      - 4Nika-5175
-      - 🇫🇷 FR-5.196.29.123-6186
-      - 4Nika-5124
-      - 4Nika-10442
-      - 4Nika-548
-      - 4Nika-5109
-      - 🇩🇰 DK-192.36.27.94-0500
-      - BH-15.184.159.161-0499
-      - 4Nika-9801
-      - SE-176.124.202.137-0496
-      - 4Nika-169
+      - 4Nika-10059
+      - RS-194.71.126.31-0450
+      - SE-46.246.98.155-0446
+      - 4Nika-1058
+      - 🇬🇧 GB-141.98.101.178-0474
+      - 4Nika-5179
+      - 4Nika-597
+      - 4Nika-583
+      - 4Nika-778
+      - 🇬🇧 GB-141.98.101.182-0522
+      - 4Nika-186
+      - CH-156.146.62.163-0421
+      - 🇷🇺 RU-45.151.62.54-0469
+      - 4Nika-575
+      - 4Nika-10143
+      - 4Nika-9502
+      - SK-156.146.40.194-0465
+      - 🇵🇱 PL-45.144.48.63-0471
+      - 4Nika-1235
+      - 4Nika-10367
+      - 4Nika-9869
+      - EE-147.45.60.33-0455
+      - 4Nika-637
+      - 4Nika-325%% 8
+      - 4Nika-10279
+      - 4Nika-9898
+      - 4Nika-625
+      - 4Nika-9899
+      - 4Nika-465
+      - 4Nika-9895
+      - 4Nika-188
+      - BH-157.175.10.239-0505
+      - MD-103.106.1.92-0374
+      - AE-40.172.178.194-0514
+      - TH-119.59.98.58-6282
+      - 4Nika-8922
+      - 4Nika-8635
+      - 4Nika-10528
+      - 4Nika-10365
+      - LT-45.87.175.178-0375
+      - KZ-213.156.137.67-0513
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 _SG_新加坡->🇺🇸_US_美国
       - 🇨🇳 _TW_台湾->🇺🇸_US_美国
-      - 🇺🇸 US-194.5.215.59-0353
-      - 🇺🇸 US-156.146.38.167-0342
-      - 🇺🇸 US-156.146.38.170-0339
-      - 🇺🇸 US-212.102.47.130-0325
-      - 🇺🇸 US-92.118.112.111-0429
-      - 🇺🇸 US-107.155.57.51-0337
-      - 🇺🇸 US-54.200.164.45-5778
-      - 🇺🇸 _US_美国_5
-      - 🇨🇦 CA-79.127.233.170-0332
-      - 🇺🇸 _GB_英国->🇺🇸_US_美国
-      - 🇺🇸 US-45.55.2.232-0354
-      - 🇺🇸 _US_美国_7
-      - 🇺🇸 US-172.233.128.126-1269
-      - 🇺🇸 US-104.207.155.64-0327
-      - 🇺🇸 US-172.232.171.192-0334
-      - 🇺🇸 US-207.246.101.50-0324
-      - 🇺🇸 US-139.64.165.101-0434
-      - 🇺🇸 美国 CloudFlare节点 10
-      - 🇺🇸 US-194.116.173.21-0439
-      - 🇺🇸 US-38.107.226.146-0471
-      - 🇨🇦 CA-142.4.216.225-0467
-      - 🇺🇸 US-142.202.49.84-0516
-      - 🇺🇸 US-142.202.49.122-5632
-      - 🇺🇸 US-38.107.226.241-7706
-      - 🇺🇸 US-167.88.63.21-6093
-      - 🇺🇸 US-204.136.10.115-0520
+      - 🇰🇷 KR-43.202.96.177-0494ss//cmM0LW1kNToxNGZGUHJiZXpFM0hEWnpzTU9yNg@138.199.42.688080#🇺🇸 US-138.199.42.68-0329
+      - 🇺🇸 US-79.110.53.169-0456
+      - 🇺🇸 US-212.102.47.130-0413
+      - 🇨🇦 CA-149.22.95.183-0376
+      - 🇺🇸 US-45.55.2.232-0416
+      - 🇺🇸 US-104.207.155.64-0463
+      - 🇺🇸 US-38.107.226.146-0458
+      - 🇺🇸 US-172.233.128.126-0477
+      - 🇺🇸 US-207.246.101.50-0461
+      - 🇺🇸 US-172.232.171.192-0464
+      - 🇺🇸 US-139.64.165.101-0519
+      - 🇺🇸 US-94.131.123.147-0472
+      - 🇨🇦 CA-142.4.216.225-0489
       - 🇺🇸 _US_美国_2
-      - 🇺🇸 _US_美国_6
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国 2
+      - 🇺🇸 _US_美国_1
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 美国 131
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸 _US_美国_5
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国_1
+      - 🇺🇸 _US_美国_4 4
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇺🇸 _US_美国->🇮🇳_IN_印度 4
       - 🇺🇸 _US_美国 5
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国 2
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
       - 🇨🇳 _TW_台湾->🇺🇸_US_美国 2
       - 🇺🇸 _US_美国 4
       - 🇺🇸 _US_美国 3
       - 🇺🇸 _US_美国 2
-      - 🇺🇸 _US_美国->🇮🇳_IN_印度 3
+      - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 _US_美国->🇸🇦_SA_沙特阿拉伯
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 2
       - 🇺🇸 _US_美国->🇮🇳_IN_印度 2
       - 🇺🇸 _US_美国->🇮🇳_IN_印度
-      - 🇺🇸 _US_美国->🇮🇳_IN_印度 4
+      - 🇺🇸 _US_美国
       - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
       - 🇨🇦 _CA_加拿大
-      - 🇺🇸 US-38.143.66.87-5694
-      - 🇺🇸 US-139.64.165.230-5765
-      - 🇺🇸 US-38.121.43.27-6141
-      - 🇺🇸 US-142.202.49.75-6146
-      - 🇺🇸 US-23.157.40.87-5699
-      - 🇺🇸 US-54.190.43.178-0685
-      - 🇺🇸 US-38.54.94.122-5644
-      - 🇺🇸 _US_美国
-      - 🇺🇸 US-199.180.101.27-5908
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇨🇦 CA-23.162.200.227-0819
-      - 🇺🇸 US-38.33.44.11-5913
-      - 🇺🇸 US-198.200.48.229-5925
-      - 🇺🇸 US-38.14.107.233-8121
-      - 🇺🇸 US-38.14.107.225-8119
-      - 🇺🇸 US-38.33.34.38-5928
-      - 🇺🇸 _US_美国_4
-      - 🇺🇸 US-38.11.50.66-5663
-      - 🇺🇸 US-137.175.21.181-5655
-      - 🇺🇸 US-137.175.41.105-5926
-      - 🇺🇸 US-154.3.8.151-1263
-      - 🇺🇸 US-38.14.107.228-8144
-      - 🇺🇸 US-137.175.21.180-5914
-      - 🇺🇸 US-38.14.107.226-5659
-      - 🇸🇬 _SG_新加坡->🇺🇸_US_美国 2
-      - 🇨🇦 CA-134.195.198.147-8157
-      - 🇺🇸 US-44.194.46.61-6069
-      - 🇺🇸 US-142.202.48.105-5698
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国_2
+      - 🇺🇸 US-38.54.94.122-5774
+      - 🇺🇸 US-38.14.107.233-8259
+      - 🇺🇸 US-38.14.107.228-8246
+      - 🇺🇸 US-38.14.107.225-8281
+      - 🇺🇸 US-137.175.41.105-6056
+      - 🇺🇸 US-38.33.34.38-6058
+      - 🇺🇸 US-38.33.44.11-6043
+      - 🇺🇸 US-38.11.50.66-5793
+      - 🇺🇸 US-199.180.101.27-6038
+      - 🇺🇸 US-137.175.21.180-6044
+      - 🇺🇸 US-137.175.21.181-5785
+      - 🇺🇸 US-198.200.48.229-6055
+      - 🇺🇸 US-38.14.107.226-5789
+      - 🇨🇦 CA-23.162.200.227-0818
+      - 🇨🇦 CA-134.195.198.147-8251
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 3
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
       - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
-      - 🇺🇸 _US_美国_1
+      - 🇺🇸 美国 028
+      - 🇺🇸 美国【付费推荐：https//socks.news】8
       - 🇺🇸 _US_美国->🇩🇪_DE_德国_1
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
-      - 🇺🇸 美国 031
-      - 🇺🇸 美国 074
-      - 🇺🇸 美国 088
-      - 🇺🇸 美国 113
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 JP-149.22.87.241-0375
-      - 🇯🇵 JP-149.22.87.204-0363
-      - 🇸🇬 SG-68.183.227.45-0407
-      - 🇸🇬 SG-68.183.227.4-0395
-      - 🇯🇵 JP-149.22.87.240-0364
-      - 🇸🇬 SG-68.183.227.236-0396
-      - 🇸🇬 SG-128.199.172.224-0413
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇸🇬 SG-139.59.119.143-0394
-      - 🇸🇬 狮城特殊|@ripaojiedian
-      - 🇸🇬 SG-103.106.229.219-0487
+      - 🇯🇵 JP-149.22.87.241-0485
+      - 🇯🇵 JP-149.22.87.204-0488
+      - 🇯🇵 JP-149.22.87.240-0487
       - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇸🇬 SG-68.183.227.45-0506
+      - 🇸🇬 SG-68.183.227.236-0501
+      - 🇸🇬 SG-68.183.227.4-0504
       - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇸🇬 SG-64.176.85.73-0469
-      - 🇨🇳 TW-2.58.241.42-5869
-      - 🇰🇷 KR-54.180.158.248-5787
-      - 🇨🇳 TW-185.189.160.98-0474
-      - 🇰🇷 KR-13.125.226.50-5816
-      - 🇰🇷 KR-43.202.96.177-0372
-      - 🇸🇬 _SG_新加坡->🇺🇸_US_美国
-      - 🇰🇷 韩国2|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇯🇵 日本4|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇨🇳 台湾|@ripaojiedian
+      - 🇸🇬 SG-128.199.172.224-0500
+      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇸🇬 SG-139.59.119.143-0499
+      - 🇸🇬 SG-64.176.85.73-6297
+      - 🇰🇷 KR-13.125.226.50-5946
+      - 🇨🇳 台湾2|@ripaojiedian
+      - 🇸🇬 SG-103.106.229.219-0502
       - 🇭🇰 香港3|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港|@ripaojiedian
       - 🇨🇳 _TW_台湾->🇺🇸_US_美国
-      - 🇯🇵 JP-107.148.6.121-5891
+      - 🇸🇬 SG-13.250.12.185-0516
+      - 🇸🇬 SG-47.129.101.151-0521
+      - 🇰🇷 KR-43.202.96.177-0494ss//cmM0LW1kNToxNGZGUHJiZXpFM0hEWnpzTU9yNg@138.199.42.688080#🇺🇸 US-138.199.42.68-0329
       - 🇨🇳 _TW_台湾->🇺🇸_US_美国 2
-      - 🇸🇬 _SG_新加坡->🇺🇸_US_美国 2
-      - 🇸🇬 狮城特殊|@ripaojiedian 2
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -1011,179 +879,157 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇸🇬 狮城特殊|@ripaojiedian
-      - 🇫🇷 FR-45.158.171.141-0382
-      - 🇳🇱 NL-193.29.139.162-0384
-      - 4Nika-1274
-      - 🇬🇧 GB-212.102.53.80-0415
-      - CH-156.146.62.162-0446
-      - 4Nika-122
-      - 4Nika-8655
-      - 🇬🇧 GB-212.102.53.78-0410
-      - CH-156.146.62.163-0421
-      - CZ-195.181.160.6-0466
-      - 4Nika-597
-      - CH-156.146.62.164-0417
-      - 🇬🇧 GB-212.102.53.195-0416
-      - 🇬🇧 GB-212.102.53.196-0400
-      - 🇬🇧 GB-212.102.53.81-0414
-      - 🇬🇧 GB-212.102.53.198-0408
-      - SE-121.127.46.147-0392
-      - 4Nika-8213
-      - 🇬🇧 GB-212.102.53.193-0405
-      - 🇫🇷 FR-45.158.171.151-0450
-      - CL-37.143.128.195-6025
-      - 🇵🇱 PL-92.118.205.228-0422
-      - 4Nika-9416
-      - 4Nika-463
-      - 4Nika-579
+      - 4Nika-678
+      - LT-45.87.175.157-0379
+      - LT-45.87.175.188-0362
+      - 🇳🇱 NL-193.29.139.164-0377
+      - 🇳🇱 NL-193.29.139.179-0355
+      - 4Nika-11
+      - LT-45.87.175.178-0265
+      - 🇳🇱 NL-193.29.139.227-0372
+      - 4Nika-115
+      - 4Nika-1264
+      - 🇬🇧 GB-20.77.162.77-0382
+      - 4Nika-161
+      - 🇳🇱 NL-149.34.244.68-0402
+      - 🇳🇱 NL-149.34.244.72-0473
+      - 🇳🇱 NL-149.34.244.82-0403
+      - 4Nika-1283
+      - HU-91.219.237.102-0470
+      - 4Nika-8741
+      - 🇳🇱 NL-193.29.139.157-0432
+      - 4Nika-490
+      - CH-156.146.62.162-0434
+      - 🇬🇧 GB-212.102.53.197-0408
+      - CH-156.146.62.161-0439
+      - 🇬🇧 GB-212.102.53.80-0448
+      - 4Nika-8298
+      - 🇬🇧 GB-169.150.210.233-0415
+      - 🇳🇱 NL-5.35.47.122-0417
+      - 🇬🇧 GB-212.102.53.193-0428
+      - 4Nika-1096
+      - 🇬🇧 GB-212.102.53.79-0436
+      - 4Nika-8883
+      - 4Nika-807
+      - 🇬🇧 GB-212.102.53.196-0404
+      - 🇫🇷 FR-45.158.171.146-0396
+      - 🇬🇧 GB-212.102.53.81-0429
+      - CH-156.146.62.164-0437
+      - 4Nika-1367
+      - 🇬🇧 GB-212.102.53.198-0443
       - 🇬🇧 GB-212.102.53.194-0140
-      - 4Nika-485
-      - SE-46.246.98.155-0426
-      - 4Nika-111
-      - RS-194.71.126.31-0448
-      - SK-156.146.40.194-0409
-      - 4Nika-571
-      - 🇳🇱 NL-193.29.139.138-0501
-      - 4Nika-9782
-      - 4Nika-10940
-      - 4Nika-593
-      - 4Nika-9965
-      - 4Nika-1122
-      - 4Nika-17
-      - 4Nika-10190
-      - 4Nika-1023
-      - 4Nika-10862
-      - 4Nika-9805
-      - 4Nika-491
-      - 4Nika-10051
-      - 4Nika-760
-      - 4Nika-8838
-      - 4Nika-5193
-      - 4Nika-1334
-      - KZ-213.156.137.67-1107
+      - 🇳🇱 NL-149.34.244.77-0389
+      - 🇬🇧 GB-212.102.53.195-0445
+      - SE-121.127.46.147-0422
+      - 🇵🇱 PL-92.118.205.228-0440
+      - CZ-195.181.160.6-0423
+      - CL-37.143.128.195-0435
+      - 🇫🇷 FR-185.234.64.35-0410
+      - 4Nika-10056
       - 4Nika-184
-      - 🇸🇬 狮城特殊|@ripaojiedian 2
-      - 4Nika-9807
-      - 4Nika-1007
-      - 🇬🇧 GB-141.98.101.180-0462
-      - 4Nika-10585
-      - RELAY-198.41.209.70-0452
-      - RELAY-104.19.48.236-0250
-      - RELAY-104.17.213.241-0443
-      - 4Nika-8549
-      - 🇬🇧 GB-141.98.101.178-0484
-      - 4Nika-1371
-      - 4Nika-3170
-      - 4Nika-1369
-      - 🇮🇳 IN-159.65.149.72-0457
-      - 4Nika-1036
-      - 4Nika-1106
-      - 🇬🇧 GB-141.98.101.182-0502
-      - 4Nika-158
-      - 4Nika-10994
-      - 4Nika-1031
-      - 4Nika-13
-      - 4Nika-1250
-      - AE-40.172.178.194-0479
-      - 🇬🇧 GB-141.98.101.179-0461
-      - 4Nika-10751
-      - 4Nika-3759
-      - 4Nika-5171
-      - 4Nika-5175
-      - 🇫🇷 FR-5.196.29.123-6186
-      - 4Nika-5124
-      - 4Nika-10442
-      - 4Nika-548
-      - 4Nika-5109
-      - 🇩🇰 DK-192.36.27.94-0500
-      - BH-15.184.159.161-0499
-      - 4Nika-9801
-      - SE-176.124.202.137-0496
-      - 4Nika-169
+      - 4Nika-10059
+      - RS-194.71.126.31-0450
+      - SE-46.246.98.155-0446
+      - 4Nika-1058
+      - 🇬🇧 GB-141.98.101.178-0474
+      - 4Nika-5179
+      - 4Nika-597
+      - 4Nika-583
+      - 4Nika-778
+      - 🇬🇧 GB-141.98.101.182-0522
+      - 4Nika-186
+      - CH-156.146.62.163-0421
+      - 🇷🇺 RU-45.151.62.54-0469
+      - 4Nika-575
+      - 4Nika-10143
+      - 4Nika-9502
+      - SK-156.146.40.194-0465
+      - 🇵🇱 PL-45.144.48.63-0471
+      - 4Nika-1235
+      - 4Nika-10367
+      - 4Nika-9869
+      - EE-147.45.60.33-0455
+      - 4Nika-637
+      - 4Nika-325%% 8
+      - 4Nika-10279
+      - 4Nika-9898
+      - 4Nika-625
+      - 4Nika-9899
+      - 4Nika-465
+      - 4Nika-9895
+      - 4Nika-188
+      - BH-157.175.10.239-0505
+      - MD-103.106.1.92-0374
+      - AE-40.172.178.194-0514
+      - TH-119.59.98.58-6282
+      - 4Nika-8922
+      - 4Nika-8635
+      - 4Nika-10528
+      - 4Nika-10365
+      - LT-45.87.175.178-0375
+      - KZ-213.156.137.67-0513
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 _SG_新加坡->🇺🇸_US_美国
       - 🇨🇳 _TW_台湾->🇺🇸_US_美国
-      - 🇺🇸 US-194.5.215.59-0353
-      - 🇺🇸 US-156.146.38.167-0342
-      - 🇺🇸 US-156.146.38.170-0339
-      - 🇺🇸 US-212.102.47.130-0325
-      - 🇺🇸 US-92.118.112.111-0429
-      - 🇺🇸 US-107.155.57.51-0337
-      - 🇺🇸 US-54.200.164.45-5778
-      - 🇺🇸 _US_美国_5
-      - 🇺🇸 _GB_英国->🇺🇸_US_美国
-      - 🇺🇸 US-45.55.2.232-0354
-      - 🇺🇸 _US_美国_7
-      - 🇺🇸 US-172.233.128.126-1269
-      - 🇺🇸 US-104.207.155.64-0327
-      - 🇺🇸 US-172.232.171.192-0334
-      - 🇺🇸 US-207.246.101.50-0324
-      - 🇺🇸 US-139.64.165.101-0434
-      - 🇺🇸 美国 CloudFlare节点 10
-      - 🇺🇸 US-194.116.173.21-0439
-      - 🇺🇸 US-38.107.226.146-0471
-      - 🇺🇸 US-142.202.49.84-0516
-      - 🇺🇸 US-142.202.49.122-5632
-      - 🇺🇸 US-38.107.226.241-7706
-      - 🇺🇸 US-167.88.63.21-6093
-      - 🇺🇸 US-204.136.10.115-0520
+      - 🇰🇷 KR-43.202.96.177-0494ss//cmM0LW1kNToxNGZGUHJiZXpFM0hEWnpzTU9yNg@138.199.42.688080#🇺🇸 US-138.199.42.68-0329
+      - 🇺🇸 US-79.110.53.169-0456
+      - 🇺🇸 US-212.102.47.130-0413
+      - 🇺🇸 US-45.55.2.232-0416
+      - 🇺🇸 US-104.207.155.64-0463
+      - 🇺🇸 US-38.107.226.146-0458
+      - 🇺🇸 US-172.233.128.126-0477
+      - 🇺🇸 US-207.246.101.50-0461
+      - 🇺🇸 US-172.232.171.192-0464
+      - 🇺🇸 US-139.64.165.101-0519
+      - 🇺🇸 US-94.131.123.147-0472
       - 🇺🇸 _US_美国_2
-      - 🇺🇸 _US_美国_6
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国 2
+      - 🇺🇸 _US_美国_1
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 美国 131
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸 _US_美国_5
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国_1
+      - 🇺🇸 _US_美国_4 4
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇺🇸 _US_美国->🇮🇳_IN_印度 4
       - 🇺🇸 _US_美国 5
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国 2
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
       - 🇨🇳 _TW_台湾->🇺🇸_US_美国 2
       - 🇺🇸 _US_美国 4
       - 🇺🇸 _US_美国 3
       - 🇺🇸 _US_美国 2
-      - 🇺🇸 _US_美国->🇮🇳_IN_印度 3
+      - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 _US_美国->🇸🇦_SA_沙特阿拉伯
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 2
       - 🇺🇸 _US_美国->🇮🇳_IN_印度 2
       - 🇺🇸 _US_美国->🇮🇳_IN_印度
-      - 🇺🇸 _US_美国->🇮🇳_IN_印度 4
-      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
-      - 🇺🇸 US-38.143.66.87-5694
-      - 🇺🇸 US-139.64.165.230-5765
-      - 🇺🇸 US-38.121.43.27-6141
-      - 🇺🇸 US-142.202.49.75-6146
-      - 🇺🇸 US-23.157.40.87-5699
-      - 🇺🇸 US-54.190.43.178-0685
-      - 🇺🇸 US-38.54.94.122-5644
       - 🇺🇸 _US_美国
-      - 🇺🇸 US-199.180.101.27-5908
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 US-38.33.44.11-5913
-      - 🇺🇸 US-198.200.48.229-5925
-      - 🇺🇸 US-38.14.107.233-8121
-      - 🇺🇸 US-38.14.107.225-8119
-      - 🇺🇸 US-38.33.34.38-5928
-      - 🇺🇸 _US_美国_4
-      - 🇺🇸 US-38.11.50.66-5663
-      - 🇺🇸 US-137.175.21.181-5655
-      - 🇺🇸 US-137.175.41.105-5926
-      - 🇺🇸 US-154.3.8.151-1263
-      - 🇺🇸 US-38.14.107.228-8144
-      - 🇺🇸 US-137.175.21.180-5914
-      - 🇺🇸 US-38.14.107.226-5659
-      - 🇸🇬 _SG_新加坡->🇺🇸_US_美国 2
-      - 🇺🇸 US-44.194.46.61-6069
-      - 🇺🇸 US-142.202.48.105-5698
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国_2
+      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
+      - 🇺🇸 US-38.54.94.122-5774
+      - 🇺🇸 US-38.14.107.233-8259
+      - 🇺🇸 US-38.14.107.228-8246
+      - 🇺🇸 US-38.14.107.225-8281
+      - 🇺🇸 US-137.175.41.105-6056
+      - 🇺🇸 US-38.33.34.38-6058
+      - 🇺🇸 US-38.33.44.11-6043
+      - 🇺🇸 US-38.11.50.66-5793
+      - 🇺🇸 US-199.180.101.27-6038
+      - 🇺🇸 US-137.175.21.180-6044
+      - 🇺🇸 US-137.175.21.181-5785
+      - 🇺🇸 US-198.200.48.229-6055
+      - 🇺🇸 US-38.14.107.226-5789
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 3
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
       - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
-      - 🇺🇸 _US_美国_1
+      - 🇺🇸 美国 028
+      - 🇺🇸 美国【付费推荐：https//socks.news】8
       - 🇺🇸 _US_美国->🇩🇪_DE_德国_1
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
-      - 🇺🇸 美国 031
-      - 🇺🇸 美国 074
-      - 🇺🇸 美国 088
-      - 🇺🇸 美国 113
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
@@ -1200,38 +1046,35 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 SG-68.183.227.45-0407
-      - 🇸🇬 SG-68.183.227.4-0395
-      - 🇸🇬 SG-68.183.227.236-0396
-      - 🇸🇬 SG-128.199.172.224-0413
-      - 🇸🇬 SG-139.59.119.143-0394
+      - 🇸🇬 SG-68.183.227.45-0506
+      - 🇸🇬 SG-68.183.227.236-0501
+      - 🇸🇬 SG-68.183.227.4-0504
+      - 🇸🇬 SG-128.199.172.224-0500
       - 🇸🇬 狮城特殊|@ripaojiedian
-      - 🇸🇬 SG-103.106.229.219-0487
-      - 🇸🇬 SG-64.176.85.73-0469
-      - 🇸🇬 _SG_新加坡->🇺🇸_US_美国
-      - 🇸🇬 _SG_新加坡->🇺🇸_US_美国 2
-      - 🇸🇬 狮城特殊|@ripaojiedian 2
+      - 🇸🇬 SG-139.59.119.143-0499
+      - 🇸🇬 SG-64.176.85.73-6297
+      - 🇸🇬 SG-103.106.229.219-0502
+      - 🇸🇬 SG-13.250.12.185-0516
+      - 🇸🇬 SG-47.129.101.151-0521
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 JP-149.22.87.241-0375
-      - 🇯🇵 JP-149.22.87.204-0363
-      - 🇯🇵 JP-149.22.87.240-0364
+      - 🇯🇵 JP-149.22.87.241-0485
+      - 🇯🇵 JP-149.22.87.204-0488
+      - 🇯🇵 JP-149.22.87.240-0487
       - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇯🇵 日本4|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇯🇵 JP-107.148.6.121-5891
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇳 TW-2.58.241.42-5869
-      - 🇨🇳 TW-185.189.160.98-0474
+      - 🇨🇳 台湾2|@ripaojiedian
       - 🇨🇳 台湾|@ripaojiedian
       - 🇨🇳 _TW_台湾->🇺🇸_US_美国
       - 🇨🇳 _TW_台湾->🇺🇸_US_美国 2
@@ -1242,11 +1085,8 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇰🇷 韩国特殊|@ripaojiedian
-      - 🇰🇷 KR-54.180.158.248-5787
-      - 🇰🇷 KR-13.125.226.50-5816
-      - 🇰🇷 KR-43.202.96.177-0372
-      - 🇰🇷 韩国2|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
+      - 🇰🇷 KR-13.125.226.50-5946
+      - 🇰🇷 KR-43.202.96.177-0494ss//cmM0LW1kNToxNGZGUHJiZXpFM0hEWnpzTU9yNg@138.199.42.688080#🇺🇸 US-138.199.42.68-0329
 rules:
  - DOMAIN,asusrouter.com,DIRECT
  - DOMAIN,instant.arubanetworks.com,DIRECT
